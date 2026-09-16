@@ -1,0 +1,113 @@
+{
+ "version": "0.1.0",
+ "release_date": "2026-09-16",
+ "n_tables": 13,
+ "total_rows": 306852,
+ "tables": [
+  {
+   "table": "statewide_annual",
+   "file": "statewide_annual.csv",
+   "rows": 10,
+   "columns": 31,
+   "bytes": 4213,
+   "sha256": "9898688ca9bf660b7f97665ac6b8f34f2a0bbd4dc7021d5e11a879575cd69510"
+  },
+  {
+   "table": "hospital_annual",
+   "file": "hospital_annual.csv",
+   "rows": 598,
+   "columns": 30,
+   "bytes": 185509,
+   "sha256": "fd53818e84a14f59621ac96ce7e021dd9c7d1e28bec2c94cfc84e20bd5193542"
+  },
+  {
+   "table": "hospital_annual_by_setting",
+   "file": "hospital_annual_by_setting.csv",
+   "rows": 1129,
+   "columns": 27,
+   "bytes": 297145,
+   "sha256": "5a28bad0f69ec40948204dffdf4759e375ef73c6fa2de01e6bd2011396a8785f"
+  },
+  {
+   "table": "revenue_volume_monthly",
+   "file": "revenue_volume_monthly.csv.gz",
+   "rows": 300730,
+   "columns": 43,
+   "bytes": 16801774,
+   "sha256": "8eec0facf56d57be1689e0a9bd2fd2a06a6983ae242142d5d3a7594d7735acf7",
+   "sha256_uncompressed": "518282f97dba6f739587635ab4aab772663129054560eecdec8aeffefde12903"
+  },
+  {
+   "table": "approved_gbr_targets",
+   "file": "approved_gbr_targets.csv",
+   "rows": 461,
+   "columns": 7,
+   "bytes": 57815,
+   "sha256": "09c2e2588a8776dbb18b8ef232d8f0d3824d95e72556f50edf062da69a71cff8"
+  },
+  {
+   "table": "quality_adjustments",
+   "file": "quality_adjustments.csv",
+   "rows": 1845,
+   "columns": 9,
+   "bytes": 309803,
+   "sha256": "37a2b7a69adb389e336da0ceb55e9bb60201799c534a6e272af2bdef4efeffda"
+  },
+  {
+   "table": "financial_hospital_annual",
+   "file": "financial_hospital_annual.csv",
+   "rows": 1274,
+   "columns": 51,
+   "bytes": 484974,
+   "sha256": "73254109823319884ca4508aade0bb5608040eee1e0fd6e4226c2c913189360c"
+  },
+  {
+   "table": "financial_statewide_annual",
+   "file": "financial_statewide_annual.csv",
+   "rows": 20,
+   "columns": 46,
+   "bytes": 8977,
+   "sha256": "9e9c7f5b2e5e80d671a3a52d3b9e6875f50399e8c04047be2d1b14099afddba8"
+  },
+  {
+   "table": "disclosure_hospital_annual",
+   "file": "disclosure_hospital_annual.csv",
+   "rows": 540,
+   "columns": 56,
+   "bytes": 203095,
+   "sha256": "17d2b736ff29411d25c99b0b9edae7930da3b70763a7946289427a4d9ae54529"
+  },
+  {
+   "table": "hospital_crosswalk",
+   "file": "hospital_crosswalk.csv",
+   "rows": 66,
+   "columns": 18,
+   "bytes": 17548,
+   "sha256": "ddb94990a4a439f9868425de33c5f46035708e9c607d55a6997daa7140dc3b71"
+  },
+  {
+   "table": "rate_center_reference",
+   "file": "rate_center_reference.csv",
+   "rows": 82,
+   "columns": 11,
+   "bytes": 8598,
+   "sha256": "3f31c882cfa531eb3cee1b8aede6c9de690a425823bdc94be47c4a4aa1432e7d"
+  },
+  {
+   "table": "financial_extraction_log",
+   "file": "financial_extraction_log.csv",
+   "rows": 22,
+   "columns": 7,
+   "bytes": 2020,
+   "sha256": "63df8b9f5372a42e3ee15bed55f51f16f42868f1c56c116960a96acf9d893145"
+  },
+  {
+   "table": "REVIEW_unresolved_hospital_names",
+   "file": "REVIEW_unresolved_hospital_names.csv",
+   "rows": 75,
+   "columns": 7,
+   "bytes": 5737,
+   "sha256": "3942be4d28520cc8cba0726cb1ff58081dfab05c0cbe8a2389c83d40587ac826"
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+rate_center,center_name,schedule,category,unit_of_rate,source,fy_first,fy_last,total_revenue_all_years,inpatient_revenue_share,in_published_panel
+ADD,Adolescent Neuropsychiatry - Dual Diagnosed,A26,Daily service,Patient days,CCD;SUB,2017.0,2026.0,79928084.0,1.0,True
+ADM,Admission Services,C28,Ancillary,Patients,CCD;SUB,2017.0,2026.0,1545373230.61,1.0,True
+AMR,Ambulance Services Rebundled,C26,Ancillary,HSCRC RVUs,CCD;SUB;S500,2017.0,2026.0,17927040.87,0.9211,True
+ANS,Anesthesiology,C4,Ancillary,Minutes,CCD;SUB;S500,2017.0,2026.0,2048103890.96,0.5541,True
+AUD,Audiology,C23,Ancillary,Maryland RVUs,CCD;SUB;S500,2017.0,2026.0,33562103.49,0.2279,True
+BUR,Burn Care,A10,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,97919275.0,1.0,True
+CAT,CAT Scanner,C11,Ancillary,HSCRC RVUs,CCD;SUB;S500,2017.0,2026.0,2511301713.55,0.3874,True
+CCU,Coronary Care,A7,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,209244490.9,1.0,True
+CDS,Drugs,C31,Ancillary,EIPA,CCD;SUB;S500,2017.0,2026.0,19613422110.89,0.4294,True
+CDS-340,Drugs - 340B,,Ancillary,EIPA,derived from SUB 340B convention,2017.0,2026.0,189321073.76,0.0,True
+CL,Clinic Services,B2,Ambulatory,RVUs,CCD;SUB;S500,2017.0,2026.0,5222414398.18,0.0217,True
+CL-340,Clinic Services - 340B,,Ambulatory,RVUs,derived from SUB 340B convention,2017.0,2026.0,69503932.72,0.0001,True
+CL-H49,Clinic Services - UM Upper Chesapeake (CCN 210049) 340B,,Ambulatory,RVUs,derived from SUB,2018.0,2026.0,87254143.49,0.0002,True
+CL-H63,Clinic Services - UM St. Joseph (CCN 210063) 340B,,Ambulatory,RVUs,derived from SUB,2018.0,2026.0,66682637.37,0.0001,True
+CRH,Chronic Care,A18,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,533703595.82,1.0,True
+DEF,Definitive Observation,A5,Daily service,Patient days,CCD;SUB,2017.0,2026.0,1456388140.87,1.0,True
+DEL,Labor and Delivery Services,C2,Ancillary,Maryland RVUs,CCD;SUB;S500,2017.0,2026.0,4627432333.92,0.7698,True
+EEG,Electroencephalography,C7,Ancillary,1974 California RVU,CCD;SUB;S500,2017.0,2026.0,991625274.6,0.4516,True
+EK2,UNCONFIRMED,,,,not found in any HSCRC source document,2017.0,2026.0,3936999.98,0.2015,True
+EKG,Electrocardiography,C6,Ancillary,1974 California RVU,CCD;SUB;S500,2017.0,2026.0,1151345020.03,0.529,True
+EM2,UNCONFIRMED,,,,appears in FY2019 rate files but undefined in any source,2017.0,2026.0,26029260.58,0.031,True
+EMG,Emergency Services,B1,Ambulatory,RVUs,CCD;SUB;S500,2017.0,2026.0,12464392707.52,0.2153,True
+ETH,Electroconvulsive Therapy,C42,Ancillary,Treatments,CCD;SUB;S500,2017.0,2026.0,16970014.0,0.3534,True
+FSE,Free Standing Emergency Services,B7,Ambulatory,Visits,CCD;SUB;S500,2017.0,2023.0,154524560.56,,True
+GTH,Group Therapies,C35,Ancillary,Hours,CCD;SUB;S500,2017.0,2024.0,4966719.0,0.5878,True
+HYP,Hyperbaric Chamber,C22,Ancillary,Hours of treatment,CCD;SUB;S500,2017.0,2026.0,178911515.89,0.1597,True
+IRC,Interventional Radiology/Cardiology,C90,Ancillary,Maryland RVUs or minutes,CCD;SUB;S500,2017.0,2026.0,4421188343.74,0.4437,True
+ITH,Individual Therapies,C34,Ancillary,Hours,CCD;SUB;S500,2017.0,2024.0,16325718.0,0.8534,True
+LA2,UNCONFIRMED,,,,not found in any HSCRC source document,2017.0,2026.0,1938973.41,0.0665,True
+LAB,Laboratory Services,C5,Ancillary,Maryland RVUs,CCD;SUB;S500,2017.0,2026.0,15436184303.2,0.5771,True
+LAB-340,Laboratory Services - 340B,,Ancillary,Maryland RVUs,derived from SUB 340B convention,2017.0,2026.0,10355896.97,0.0001,True
+LAB-H49,Laboratory Services - UM Upper Chesapeake (CCN 210049) 340B,,Ancillary,Maryland RVUs,derived from SUB,2018.0,2026.0,15351873.41,0.0005,True
+LAB-H63,Laboratory Services - UM St. Joseph (CCN 210063) 340B,,Ancillary,Maryland RVUs,derived from SUB,2018.0,2026.0,6756459.9,0.0004,True
+LEU,Leukopheresis,C21,Ancillary,JHH RVU,CCD;SUB;S500,2017.0,2026.0,22436030.43,0.1626,True
+LIT,Lithotripsy,C1,Ancillary,Procedures,CCD;SUB;S500,2017.0,2026.0,23776990.05,0.0389,True
+MIS,Medical Surgical Intensive Care,A6,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,6781067441.39,1.0,True
+MRI,Magnetic Resonance Imaging,C25,Ancillary,Procedures or RVUs,CCD;SUB;S500,2017.0,2026.0,1500523272.54,0.4668,True
+MSG,Medical Surgical Acute,A1,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,24661335909.87,1.0,True
+MSS,Medical Surgical Supplies,C29,Ancillary,EIPA,CCD;SUB;S500,2017.0,2026.0,22758229120.28,0.5412,True
+NEO,Neonatal Intensive Care,A9,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,1965657627.75,1.0,True
+NUC,Nuclear Medicine,C10,Ancillary,1977 HSCRC RVU,CCD;SUB;S500,2017.0,2026.0,1139209950.49,0.2487,True
+NUR,Newborn Nursery,A14,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,1071585476.91,1.0,True
+OA,Organ Acquisition,C19,Ancillary,Treatments,CCD;SUB;S500,2017.0,2026.0,749812051.3,0.9041,True
+OBS,Obstetrics Acute,A4,Daily service,Patient days,CCD;SUB,2017.0,2026.0,2033795056.79,1.0,True
+OBV,Observation,B11,Ambulatory,Hours,CCD;SUB;S500,2017.0,2026.0,5485385443.31,0.2392,True
+OCL,Oncology Clinic,,Ambulatory,Visits,SUB;S500,2017.0,2026.0,331005827.22,0.0396,True
+OID,UNCONFIRMED,,,,only the OID-340 form is defined in HSCRC sources,,,,,False
+OID-340,340B Outpatient Cancer and Infusion Drugs (effective 2018-07-01),,Ancillary,EIPA,SUB,2019.0,2026.0,178591692.93,0.0353,True
+ONC,Oncology,A13,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,1013957588.02,1.0,True
+OPM,Other Physical Medicine,,Ancillary,,S500,2017.0,2026.0,712421.0,1.0,True
+OR,Operating Room,C3,Ancillary,Minutes,CCD;SUB;S500,2017.0,2026.0,18324512562.6,0.4679,True
+ORC,Operating Room Clinic,C95,Ancillary,Minutes,CCD;SUB;S500,2017.0,2026.0,702242579.13,0.0631,True
+ORC-340,Operating Room Clinic - 340B,,Ancillary,Minutes,derived from SUB 340B convention,2017.0,2024.0,431191.24,,True
+OTH,Occupational Therapy,C17,Ancillary,Maryland RVUs,CCD;SUB;S500,2017.0,2026.0,1382739007.15,0.7967,True
+PAD,Psychiatric - Adult,A19,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,979284469.24,0.9999,True
+PCD,Psychiatric - Child/Adolescent,A20,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,582414577.12,1.0,True
+PDC,Psychiatric Day and Night Care Services,B5,Ambulatory,Visits,CCD;SUB;S500,2017.0,2026.0,349504605.55,0.0012,True
+PED,Pediatrics Acute,A2,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,953315283.41,1.0,True
+PIC,Pediatric Intensive Care,A8,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,488163743.92,1.0,True
+PRE,Premature Nursery,A15,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,12248400.0,1.0,True
+PSD,Pediatric Step Down,A36,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,197031483.81,1.0,True
+PSG,Psychiatric - Geriatric,A21,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,95416822.16,1.0,True
+PSI,Psychiatric Intensive Care,,Daily service,Patient days,S500,2017.0,2019.0,35421730.0,1.0,True
+PSP,,,,,,2017.0,2021.0,6452.84,1.0,True
+PST,Psychological Testing,C38,Ancillary,Hours,CCD;SUB;S500,2017.0,2026.0,72990596.1,0.0343,True
+PSY,Psychiatric Acute,A3,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,3094571465.28,1.0,True
+PTH,Physical Therapy,C16,Ancillary,1974 California RVU,CCD;SUB;S500,2017.0,2026.0,2786829477.58,0.6611,True
+PUL,Pulmonary Function Testing,C14,Ancillary,Maryland RVUs,CCD;SUB;S500,2017.0,2026.0,258764919.31,0.1778,True
+RAD,Radiology - Diagnostic,C8,Ancillary,1977 HSCRC RVU,CCD;SUB;S500,2017.0,2026.0,6486742533.57,0.3474,True
+RAT,Radiology - Therapeutic,C9,Ancillary,1977 HSCRC RVU,CCD;SUB;S500,2017.0,2026.0,2637130513.31,0.0567,True
+RAT-340,Radiology Therapeutic - 340B,,Ancillary,1977 HSCRC RVU,derived from SUB 340B convention,2017.0,2026.0,53139382.95,0.0,True
+RDL,Renal Dialysis,C15,Ancillary,Treatments,CCD;SUB;S500,2017.0,2026.0,940613220.1,0.9603,True
+RDS,Respiratory Dependent,A25,Daily service,Patient days,CCD;SUB,2017.0,2026.0,74127321.55,1.0,True
+REC,Recreational Therapy,C41,Ancillary,Treatments,CCD;SUB;S500,2017.0,2026.0,13758485.06,1.0001,True
+RES,Respiratory Therapy,C13,Ancillary,Maryland RVUs,CCD;SUB;S500,2017.0,2026.0,3686246145.95,0.9499,True
+RHB,Rehabilitation,A16,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,1690703373.19,1.0,True
+SDS,Same Day Surgery,B6,Ambulatory,Patients,CCD;SUB;S500,2017.0,2026.0,2744953529.78,0.0044,True
+STH,Speech Language Pathology,C18,Ancillary,Maryland RVUs,CCD;SUB;S500,2017.0,2026.0,736088586.65,0.7455,True
+TMS,,,,,,2021.0,2026.0,2748976.53,,True
+TNA,Transurethral Needle Ablation,C46,Ancillary,Maryland RVUs,CCD;SUB;S500,2017.0,2022.0,379105.95,0.0609,True
+TRM,Shock Trauma,A12,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,935949547.65,1.0,True
+TRU,Shock Trauma Resuscitation,,Ambulatory,RVUs,SUB,2017.0,2026.0,121881183.13,0.5286,True

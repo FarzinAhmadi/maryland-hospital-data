@@ -1,0 +1,462 @@
+rate_year,hospid,md_provider_number,hospital_name,mid_year_target,year_end_target,source_file
+2019,1.0,210001,Meritus Medical Center,185075342.2192,370256624.1269,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,2.0,210002,University of Maryland Medical Center,772308163.4819772,1557358104.5824642,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,3.0,210003,University of Maryland Capital Region Medical Center,149930762.69682634,346274822.0177461,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,4.0,210004,Holy Cross Hospital,259873674.8210626,519805327.83976674,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,5.0,210005,Frederick Health Hospital,176198760.0131,354281013.4094,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,6.0,210006,University of Maryland Harford Memorial Hospital,56250283.0,113111368.0,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,8.0,210008,Mercy Medical Center ,271265999.43,555862505.677,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,9.0,210009,Johns Hopkins Hospital,1219667013.6093488,2476494742.0612173,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,10.0,210010,University of Maryland Shore Medical Center at Cambridge,25504204.6964732,48195994.0,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,11.0,210011,Ascension St. Agnes Hospital,217952142.17682335,430902898.65441,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,12.0,210012,Sinai Hospital of Baltimore ,394192607.0686792,789968926.992636,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,13.0,210013,Grace Medical Center,59081837.62721075,115481386.5590679,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,15.0,210015,MedStar Franklin Square Hospital Center,277225617.0903247,555813121.9830257,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,16.0,210016,Adventist White Oak,141038205.0,288381043.0,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,17.0,210017,Garrett County Memorial Hospital,31300156.7169,63631807.0651,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,18.0,210018,MedStar Montgomery Medical Center,91340550.80098684,179746972.67784318,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,19.0,210019,"TidalHealth Peninsula Regional, Inc",226595562.0596,455584862.3364,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,22.0,210022,Suburban Hospital,164544267.0,335595509.6243863,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,23.0,210023,Anne Arundel Medical Center,317706401.3620726,639391540.0,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,24.0,210024,MedStar Union Memorial Hospital,211289973.802638,421807383.2616984,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,27.0,210027,Western Maryland Regional Medical Center,166956679.6926,336930418.8501,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,28.0,210028,MedStar St. Mary's Hospital,95258329.73923644,190693442.57190368,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,29.0,210029,Johns Hopkins Bayview Medical Center,338729864.0973468,691656048.6352597,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,30.0,210030,University of Maryland Shore Medical Center at Chestertown,29275247.8963315,56036269.0,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,32.0,210032,"ChristianaCare, Union ",82315400.64550392,164310086.06700182,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,33.0,210033,Carroll Hospital Center ,116645180.6153768,233852192.13503277,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,34.0,210034,MedStar Harbor Hospital Center,94418349.24095944,188108835.2649314,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,35.0,210035,University of Maryland Charles Regional Medical Center,79336970.62497191,158727067.0,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,37.0,210037,University of Maryland Shore Medical Center at Easton,107187766.01562458,220922870.49168763,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,38.0,210038,University of Maryland Midtown Campus,115724176.1695769,230338603.6823735,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,39.0,210039,Calvert Memorial Hospital,75829221.32764283,153422401.67506707,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,40.0,210040,Northwest Hospital Center ,135013049.86901015,273079846.4557021,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,43.0,210043,University of Maryland Baltimore Washington Medical Center,221630323.2688281,447470176.0,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,44.0,210044,Greater Baltimore Medical Center,234416912.543345,476011365.3002231,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,45.0,210045,TidalHealth McCready Pavillion,8685622.9255,15680852.3173,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,48.0,210048,Howard County General Hospital,154918109.80909073,308844934.3651675,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,49.0,210049,University of Maryland Upper Chesapeake Medical Center,161830624.0885948,325418508.1210432,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,51.0,210051,Doctors Community Hospital,125487578.89040698,257373705.8453456,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,55.0,210055,University of Maryland Laurel Medical Center,50665198.0,45272778.00198887,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,60.0,210060,Fort Washington Medical Center,26193806.1115,51953334.9881,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,61.0,210061,Atlantic General Hospital ,55580754.0,110742693.0,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,62.0,210062,MedStar Southern Maryland Hospital Center,138046253.80005482,274727883.26964176,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,63.0,210063,University of Maryland St. Joseph Medical Center,208010148.0,414791528.0,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,65.0,210065,Holy Cross Hospital - Germantown,49173745.29075955,99496076.0881812,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,87.0,210087,Germantown Emergency Center,7209364.574205989,14355662.432432763,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,88.0,210088,University of Maryland Queen Anne's Freestanding Emergency Center,3560314.059995243,7130656.0,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,333.0,210333,University of Maryland Bowie Health Center,10602882.79895913,21316703.699491687,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,2001.0,,,61912478.04544209,124833110.9354715,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,2004.0,210056,MedStar Good Samaritan Hospital,130259780.12244684,257867246.9217812,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,4000.0,214000,Sheppard Pratt Hospital,,154752115.5424,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,4003.0,214003,Brook Lane Psychiatric Hospital,,22547795.2826,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,4013.0,,,,,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,5033.0,,,30794844.0,62745866.0,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,5034.0,213300,Mt. Washington Pediatric Hospital,,57914261.0,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,5050.0,210057,Shady Grove Adventist Hospital,227277555.0,457115741.0,ry_2019_05_01_19_final__mid_final_targets.csv
+2019,8992.0,218992,University of Maryland Shock Trauma,110946616.015088,223961729.5804305,ry_2019_05_01_19_final__mid_final_targets.csv
+2020,1.0,210001,Meritus Medical Center,193802874.0855,396395586.8819,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,2.0,210002,University of Maryland Medical Center,829471480.6357096,1670049655.015334,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,3.0,210003,University of Maryland Capital Region Medical Center,178413346.3169616,350390187.17332923,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,4.0,210004,Holy Cross Hospital,267357039.0952,535648209.2850373,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,5.0,210005,Frederick Health Hospital,185439267.189,376108746.9408,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,6.0,210006,University of Maryland Harford Memorial Hospital,56250283.27277122,112898376.0,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,8.0,210008,Mercy Medical Center ,284756040.7001,588101019.3312,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,9.0,210009,Johns Hopkins Hospital,1304545138.188717,2628616491.5153537,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,10.0,210010,University of Maryland Shore Medical Center at Cambridge,24326741.835,47920217.891543545,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,11.0,210011,Ascension St. Agnes Hospital,218731856.0549,450774439.1725445,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,12.0,210012,Sinai Hospital of Baltimore ,408141400.0,857310235.0,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,13.0,210013,Grace Medical Center,26668151.0,35750859.0,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,15.0,210015,MedStar Franklin Square Hospital Center,290929977.7440158,590929711.0033711,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,16.0,210016,Adventist White Oak,155556492.0,312802114.0,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,17.0,210017,Garrett County Memorial Hospital,32261491.2727,64743970.4358,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,18.0,210018,MedStar Montgomery Medical Center,93479377.4581706,183184297.65854803,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,19.0,210019,"TidalHealth Peninsula Regional, Inc",237229765.947,481688269.1766,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,22.0,210022,Suburban Hospital,175911783.93733764,351790818.1956309,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,23.0,210023,Anne Arundel Medical Center,332640049.0,678843220.0,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,24.0,210024,MedStar Union Memorial Hospital,216227937.0012348,433161004.6142455,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,27.0,210027,Western Maryland Regional Medical Center,174185853.3236,350047545.3538,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,28.0,210028,MedStar St. Mary's Hospital,98626916.5531021,198543507.20119688,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,29.0,210029,Johns Hopkins Bayview Medical Center,358984874.0,726060409.6804944,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,30.0,210030,University of Maryland Shore Medical Center at Chestertown,27965338.131,55026058.20506661,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,32.0,210032,"ChristianaCare, Union ",86475957.0,173890926.0,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,33.0,210033,Carroll Hospital Center ,121032888.0,243155129.0,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,34.0,210034,MedStar Harbor Hospital Center,97309777.85872892,194250390.5684897,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,35.0,210035,University of Maryland Charles Regional Medical Center,81724840.90715206,164938110.12569147,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,37.0,210037,University of Maryland Shore Medical Center at Easton,117360280.3254,236887318.05556816,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,38.0,210038,University of Maryland Midtown Campus,115297616.6871321,231943291.55049485,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,39.0,210039,Calvert Memorial Hospital,79226497.0,159313286.0,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,40.0,210040,Northwest Hospital Center ,141996189.0,284868585.0,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,43.0,210043,University of Maryland Baltimore Washington Medical Center,236396610.515,469710876.0,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,44.0,210044,Greater Baltimore Medical Center,248579564.0,501069837.0,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,45.0,210045,TidalHealth McCready Pavillion,7766961.2509,1877619.5932,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,48.0,210048,Howard County General Hospital,159499861.9872589,320722110.3813731,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,49.0,210049,University of Maryland Upper Chesapeake Medical Center,166940406.50489864,338419761.0,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,51.0,210051,Doctors Community Hospital,133604162.0,272588995.0,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,55.0,210055,University of Maryland Laurel Medical Center,17467979.18286135,34634354.317893445,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,60.0,210060,Fort Washington Medical Center,27202662.8195,54217834.0415,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,61.0,210061,Atlantic General Hospital ,57988020.0,116797746.0,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,62.0,210062,MedStar Southern Maryland Hospital Center,142545752.85099152,288178980.1922951,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,63.0,210063,University of Maryland St. Joseph Medical Center,202125066.5494,407610012.4327134,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,65.0,210065,Holy Cross Hospital - Germantown,59690767.7925,119852073.98429856,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,87.0,210087,Germantown Emergency Center,7667553.0,15556818.0,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,88.0,210088,University of Maryland Queen Anne's Freestanding Emergency Center,3346730.710584015,7823106.960930009,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,333.0,210333,University of Maryland Bowie Health Center,10762619.102720622,21758068.89203207,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,2001.0,,,65123084.48256221,130151349.59307072,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,2004.0,210056,MedStar Good Samaritan Hospital,137743464.81807384,275974609.1211976,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,4000.0,214000,Sheppard Pratt Hospital,,158518524.57542074,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,4003.0,214003,Brook Lane Psychiatric Hospital,,22223506.7781,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,4019.0,,,,2978641.9465,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,5033.0,,,33037049.0,66432835.0,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,5034.0,213300,Mt. Washington Pediatric Hospital,30271459.0,60654318.0,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,5050.0,210057,Shady Grove Adventist Hospital,240703444.0,483252749.0,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2020,8992.0,218992,University of Maryland Shock Trauma,116069492.813347,233078620.2729859,ry_2020_07_01_19_10_27_2020__mid_final_targets.csv
+2021,1.0,210001,Meritus Medical Center,,437448588.0,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,2.0,210002,University of Maryland Medical Center,,1732118380.1943429,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,3.0,210003,University of Maryland Capital Region Medical Center,,361209599.28364927,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,4.0,210004,Holy Cross Hospital,,557061095.0,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,5.0,210005,Frederick Health Hospital,,390522293.1258899,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,6.0,210006,University of Maryland Harford Memorial Hospital,,114594077.0,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,8.0,210008,Mercy Medical Center ,,627587311.0,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,9.0,210009,Johns Hopkins Hospital,,2748743007.9153743,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,10.0,210010,University of Maryland Shore Medical Center at Cambridge,,48679972.50641489,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,11.0,210011,Ascension St. Agnes Hospital,,465020034.7659501,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,12.0,210012,Sinai Hospital of Baltimore ,,901845133.0,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,13.0,210013,Grace Medical Center,,43744745.0,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,15.0,210015,MedStar Franklin Square Hospital Center,,604105739.9549035,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,16.0,210016,Adventist White Oak,,324197185.6567,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,17.0,210017,Garrett County Memorial Hospital,,70452985.98125793,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,18.0,210018,MedStar Montgomery Medical Center,,189258200.94152528,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,19.0,210019,"TidalHealth Peninsula Regional, Inc",,508596650.19808817,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,22.0,210022,Suburban Hospital,,374516437.7655308,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,23.0,210023,Anne Arundel Medical Center,,728093863.6307812,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,24.0,210024,MedStar Union Memorial Hospital,,453287365.31288695,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,27.0,210027,Western Maryland Regional Medical Center,,359499402.0,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,28.0,210028,MedStar St. Mary's Hospital,,206016792.2138826,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,29.0,210029,Johns Hopkins Bayview Medical Center,,752759369.0697932,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,30.0,210030,University of Maryland Shore Medical Center at Chestertown,,55759080.102,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,32.0,210032,"ChristianaCare, Union ",,180654968.0,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,33.0,210033,Carroll Hospital Center ,,251914342.0,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,34.0,210034,MedStar Harbor Hospital Center,,199352399.6475821,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,35.0,210035,University of Maryland Charles Regional Medical Center,,168803990.6882,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,37.0,210037,University of Maryland Shore Medical Center at Easton,,245479831.1043,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,38.0,210038,University of Maryland Midtown Campus,,238042538.0194108,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,39.0,210039,Calvert Memorial Hospital,,165657220.0,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,40.0,210040,Northwest Hospital Center ,,289247707.0,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,43.0,210043,University of Maryland Baltimore Washington Medical Center,,487491167.3327,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,44.0,210044,Greater Baltimore Medical Center,,530943614.0,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,45.0,210045,TidalHealth McCready Pavillion,,5890726.008237813,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,48.0,210048,Howard County General Hospital,,328466173.4873303,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,49.0,210049,University of Maryland Upper Chesapeake Medical Center,,347985589.0,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,51.0,210051,Doctors Community Hospital,,284601929.0,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,55.0,210055,University of Maryland Laurel Medical Center,,34984320.14574578,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,58.0,210058,University of Maryland Rehabilitation & Orthopaedic Institute,,133400345.5128704,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,60.0,210060,Fort Washington Medical Center,,55419827.7745,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,61.0,210061,Atlantic General Hospital ,,122209113.0,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,62.0,210062,MedStar Southern Maryland Hospital Center,,298809356.0557099,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,63.0,210063,University of Maryland St. Joseph Medical Center,,417505537.0896,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,65.0,210065,Holy Cross Hospital - Germantown,,127565627.29582351,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,87.0,210087,Germantown Emergency Center,,15378991.6764,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,88.0,210088,University of Maryland Queen Anne's Freestanding Emergency Center,,8103611.403705321,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,333.0,210333,University of Maryland Bowie Health Center,,22391521.771321204,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,2004.0,210056,MedStar Good Samaritan Hospital,,286853150.48222,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,4000.0,214000,Sheppard Pratt Hospital,,165314359.0,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,4003.0,214003,Brook Lane Psychiatric Hospital,,23278578.987837136,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,4013.0,,,,10168435.556989769,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,4019.0,,,,,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,5033.0,,,,66682311.0,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,5034.0,213300,Mt. Washington Pediatric Hospital,,61836292.75877712,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,5050.0,210057,Shady Grove Adventist Hospital,,493108962.8256,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2021,8992.0,218992,University of Maryland Shock Trauma,,243643980.3641584,ry21_input_file_2023_05_16_1__mid_final_targets.csv
+2022,1.0,210001,Meritus Medical Center,211637441.0,431209422.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,2.0,210002,University of Maryland Medical Center,901952318.6734138,1806185361.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,3.0,210003,University of Maryland Capital Region Medical Center,187108295.85890004,386577709.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,4.0,210004,Holy Cross Hospital,275260223.0,561547056.4609134,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,5.0,210005,Frederick Health Hospital,196683914.0,402623839.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,6.0,210006,University of Maryland Harford Memorial Hospital,59965360.0,122560335.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,8.0,210008,Mercy Medical Center ,305369691.0,629965777.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,9.0,210009,Johns Hopkins Hospital,1437475508.0,2831516518.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,10.0,210010,University of Maryland Shore Medical Center at Cambridge,26109367.0,32773958.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,11.0,210011,Ascension St. Agnes Hospital,228790773.0,488822812.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,12.0,210012,Sinai Hospital of Baltimore ,464148233.0,941966695.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,13.0,210013,Grace Medical Center,16498150.0,35530921.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,15.0,210015,MedStar Franklin Square Hospital Center,278682178.551594,607096356.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,16.0,210016,Adventist White Oak,167691552.0,341888986.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,17.0,210017,Garrett County Memorial Hospital,35816196.0,72888176.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,18.0,210018,MedStar Montgomery Medical Center,90480776.49277458,192441019.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,19.0,210019,"TidalHealth Peninsula Regional, Inc",252541449.0,518244150.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,22.0,210022,Suburban Hospital,186632252.05776444,392560948.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,23.0,210023,Anne Arundel Medical Center,358558797.15319395,724666206.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,24.0,210024,MedStar Union Memorial Hospital,195014210.45303863,441077574.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,27.0,210027,Western Maryland Regional Medical Center,177911435.0,363268629.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,28.0,210028,MedStar St. Mary's Hospital,94842039.02964965,204121125.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,29.0,210029,Johns Hopkins Bayview Medical Center,393773492.29887575,777519959.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,30.0,210030,University of Maryland Shore Medical Center at Chestertown,31843983.0,59832392.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,32.0,210032,"ChristianaCare, Union ",90076982.0,180779321.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,33.0,210033,Carroll Hospital Center ,127862908.0,259105034.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,34.0,210034,MedStar Harbor Hospital Center,96636218.91115668,201903636.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,35.0,210035,University of Maryland Charles Regional Medical Center,88173986.0,175833741.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,37.0,210037,University of Maryland Shore Medical Center at Easton,125623696.0,276496035.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,38.0,210038,University of Maryland Midtown Campus,124439905.63588196,245200017.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,39.0,210039,Calvert Memorial Hospital,82454105.0,170469381.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,40.0,210040,Northwest Hospital Center ,141867329.0,302617181.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,43.0,210043,University of Maryland Baltimore Washington Medical Center,255004965.0,514375163.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,44.0,210044,Greater Baltimore Medical Center,246310381.0,500128304.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,45.0,210045,TidalHealth McCready Pavillion,3094595.0,6259434.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,48.0,210048,Howard County General Hospital,159103926.8174919,346242423.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,49.0,210049,University of Maryland Upper Chesapeake Medical Center,183341322.0,364162458.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,51.0,210051,Doctors Community Hospital,130419851.6163422,299761344.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,55.0,210055,University of Maryland Laurel Medical Center,19109527.583350323,39152485.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,58.0,210058,University of Maryland Rehabilitation & Orthopaedic Institute,70090801.67911012,139482249.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,60.0,210060,Fort Washington Medical Center,31941534.0,66303384.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,61.0,210061,Atlantic General Hospital ,64782935.0,125356335.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,62.0,210062,MedStar Southern Maryland Hospital Center,138036182.05590186,299028271.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,63.0,210063,University of Maryland St. Joseph Medical Center,216303437.0,434189476.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,64.0,210064,Levindale Hospital ,34414183.0,75203693.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,65.0,210065,Holy Cross Hospital - Germantown,68610131.0,137827393.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,87.0,210087,Germantown Emergency Center,8230222.0,16636465.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,88.0,210088,University of Maryland Queen Anne's Freestanding Emergency Center,4057379.0,8100755.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,333.0,210333,University of Maryland Bowie Health Center,11624030.282255065,22997346.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,2004.0,210056,MedStar Good Samaritan Hospital,133233827.526841,289532918.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,4000.0,214000,Sheppard Pratt Hospital,,183994140.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,4003.0,214003,Brook Lane Psychiatric Hospital,,23778344.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,4013.0,,,,,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,4019.0,,,,,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,4020.0,214020,J Kent McNew,,18785775.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,5034.0,213300,Mt. Washington Pediatric Hospital,,57415672.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,5050.0,210057,Shady Grove Adventist Hospital,251462156.0,508079856.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2022,8992.0,218992,University of Maryland Shock Trauma,129045540.09203604,254772005.0,ry22_input_file_2023_06_012__mid_final_targets.csv
+2023,1.0,210001,Meritus Medical Center,217995954.0,437530257.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,2.0,210002,University of Maryland Medical Center,898148456.0,1846218814.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,3.0,210003,University of Maryland Capital Region Medical Center,197699318.0,391706342.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,4.0,210004,Holy Cross Hospital,283847322.0,576529823.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,5.0,210005,Frederick Health Hospital,202680654.0,411084017.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,6.0,210006,University of Maryland Harford Memorial Hospital,62065947.0,121089366.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,8.0,210008,Mercy Medical Center ,319578338.0,653595295.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,9.0,210009,Johns Hopkins Hospital,1412735016.0,2900735203.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,10.0,210010,University of Maryland Shore Medical Center at Cambridge,10206990.0,21029602.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,11.0,210011,Ascension St. Agnes Hospital,258128737.0,513367693.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,12.0,210012,Sinai Hospital of Baltimore ,473571503.0,949474604.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,13.0,210013,Grace Medical Center,17726543.0,34635929.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,15.0,210015,MedStar Franklin Square Hospital Center,310718284.895697,631137472.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,16.0,210016,Adventist White Oak,171715282.0,344830584.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,17.0,210017,Garrett County Memorial Hospital,39013283.0,81407408.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,18.0,210018,MedStar Montgomery Medical Center,100177799.0,207622438.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,19.0,210019,"TidalHealth Peninsula Regional, Inc",268808360.0,543116238.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,22.0,210022,Suburban Hospital,199024819.0,404898440.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,23.0,210023,Anne Arundel Medical Center,385727227.0,747733926.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,24.0,210024,MedStar Union Memorial Hospital,237287814.0,481862923.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,27.0,210027,Western Maryland Regional Medical Center,184523212.0,374411219.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,28.0,210028,MedStar St. Mary's Hospital,106867862.0,216219147.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,29.0,210029,Johns Hopkins Bayview Medical Center,384274533.0,784094630.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,30.0,210030,University of Maryland Shore Medical Center at Chestertown,28207716.0,57507030.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,32.0,210032,"ChristianaCare, Union ",93076135.0,187285479.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,33.0,210033,Carroll Hospital Center ,129825417.0,266253357.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,34.0,210034,MedStar Harbor Hospital Center,103531893.0,210300988.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,35.0,210035,University of Maryland Charles Regional Medical Center,89330945.0,181406877.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,37.0,210037,University of Maryland Shore Medical Center at Easton,149597668.0,285032165.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,38.0,210038,University of Maryland Midtown Campus,129846493.0,267052799.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,39.0,210039,Calvert Memorial Hospital,87255998.0,175280796.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,40.0,210040,Northwest Hospital Center ,158167805.0,310986819.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,43.0,210043,University of Maryland Baltimore Washington Medical Center,259838889.0,516692715.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,44.0,210044,Greater Baltimore Medical Center,242329207.0,495966263.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,45.0,210045,TidalHealth McCready Pavillion,3419868.0,6848259.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,48.0,210048,Howard County General Hospital,174988348.0,354327612.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,49.0,210049,University of Maryland Upper Chesapeake Medical Center,,,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,51.0,210051,Doctors Community Hospital,161772800.0,307539505.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,55.0,210055,University of Maryland Laurel Medical Center,20031686.0,41947532.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,58.0,210058,University of Maryland Rehabilitation & Orthopaedic Institute,73483485.0,142863989.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,60.0,210060,Fort Washington Medical Center,31903095.0,64793370.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,61.0,210061,Atlantic General Hospital ,63883480.0,124352596.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,62.0,210062,MedStar Southern Maryland Hospital Center,155539787.0,317301839.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,63.0,210063,University of Maryland St. Joseph Medical Center,226873849.0,459862071.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,64.0,210064,Levindale Hospital ,37487591.0,73350681.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,65.0,210065,Holy Cross Hospital - Germantown,67847805.0,137747473.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,87.0,210087,Germantown Emergency Center,8540203.0,17491205.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,88.0,210088,University of Maryland Queen Anne's Freestanding Emergency Center,4331247.0,8797429.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,333.0,210333,University of Maryland Bowie Health Center,11122725.0,22652789.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,2004.0,210056,MedStar Good Samaritan Hospital,148884970.0,302417037.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,4000.0,214000,Sheppard Pratt Hospital,,188510351.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,4003.0,214003,Brook Lane Psychiatric Hospital,,24167631.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,4013.0,,,,,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,4019.0,,,,,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,4020.0,214020,J Kent McNew,,9320612.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,5034.0,213300,Mt. Washington Pediatric Hospital,,57168916.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,5050.0,210057,Shady Grove Adventist Hospital,253232418.0,516288144.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2023,8992.0,218992,University of Maryland Shock Trauma,128266600.0,259964863.0,fy2023_july_1_ry23_input_file_8__mid_final_targets.csv
+2024,1.0,210001,Meritus Medical Center,241261826.0,488990794.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,2.0,210002,University of Maryland Medical Center,949156575.0,1930304307.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,3.0,210003,University of Maryland Capital Region Medical Center,204099405.0,423421251.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,4.0,210004,Holy Cross Hospital,298524071.0,602347438.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,5.0,210005,Frederick Health Hospital,207384707.0,422532658.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,6.0,210006,University of Maryland Harford Memorial Hospital,60634603.0,14347545.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,8.0,210008,Mercy Medical Center ,332164334.0,682309418.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,9.0,210009,Johns Hopkins Hospital,1508898071.0,3098511615.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,10.0,210010,University of Maryland Shore Medical Center at Cambridge,8066778.0,17395947.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,11.0,210011,Ascension St. Agnes Hospital,256146927.0,518121228.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,12.0,210012,Sinai Hospital of Baltimore ,487253244.0,962836963.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,13.0,210013,Grace Medical Center,16701532.0,33537901.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,15.0,210015,MedStar Franklin Square Hospital Center,340986056.0,685391847.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,16.0,210016,Adventist White Oak,183970878.0,370575424.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,17.0,210017,Garrett County Memorial Hospital,47575708.0,95047879.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,18.0,210018,MedStar Montgomery Medical Center,109048702.0,222336581.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,19.0,210019,"TidalHealth Peninsula Regional, Inc",300326799.0,603696201.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,22.0,210022,Suburban Hospital,211634665.0,431505511.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,23.0,210023,Anne Arundel Medical Center,382139707.0,744343005.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,24.0,210024,MedStar Union Memorial Hospital,249897978.0,503491808.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,27.0,210027,Western Maryland Regional Medical Center,194704659.0,393806835.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,28.0,210028,MedStar St. Mary's Hospital,117770454.0,235988705.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,29.0,210029,Johns Hopkins Bayview Medical Center,411498661.0,830342909.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,30.0,210030,University of Maryland Shore Medical Center at Chestertown,29027943.0,53581370.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,32.0,210032,"ChristianaCare, Union ",100425265.0,205570276.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,33.0,210033,Carroll Hospital Center ,144523881.0,294280181.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,34.0,210034,MedStar Harbor Hospital Center,111420131.0,224471831.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,35.0,210035,University of Maryland Charles Regional Medical Center,94438440.0,190509450.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,37.0,210037,University of Maryland Shore Medical Center at Easton,146500503.0,297123934.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,38.0,210038,University of Maryland Midtown Campus,138628373.0,278625234.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,39.0,210039,Calvert Memorial Hospital,91927478.0,188658586.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,40.0,210040,Northwest Hospital Center ,155941842.0,312833636.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,43.0,210043,University of Maryland Baltimore Washington Medical Center,264693100.0,535355520.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,44.0,210044,Greater Baltimore Medical Center,252766517.0,509253582.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,45.0,210045,TidalHealth McCready Pavillion,2649847.0,6412701.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,48.0,210048,Howard County General Hospital,186166859.0,372760260.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,49.0,210049,University of Maryland Upper Chesapeake Medical Center,190958419.0,411728320.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,51.0,210051,Doctors Community Hospital,152573122.0,310360027.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,55.0,210055,University of Maryland Laurel Medical Center,21100675.0,42380902.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,58.0,210058,University of Maryland Rehabilitation & Orthopaedic Institute,73917350.0,147340006.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,60.0,210060,Fort Washington Medical Center,34902797.0,68430990.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,61.0,210061,Atlantic General Hospital ,70086501.0,135495261.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,62.0,210062,MedStar Southern Maryland Hospital Center,166673836.0,335792375.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,63.0,210063,University of Maryland St. Joseph Medical Center,239878035.0,486911866.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,64.0,210064,Levindale Hospital ,36813038.0,75238351.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,65.0,210065,Holy Cross Hospital - Germantown,80775891.0,161069245.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,87.0,210087,Germantown Emergency Center,9258637.0,18555536.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,88.0,210088,University of Maryland Queen Anne's Freestanding Emergency Center,4554000.0,9087227.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,333.0,210333,University of Maryland Bowie Health Center,11788624.0,24044796.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,2004.0,210056,MedStar Good Samaritan Hospital,157966946.0,318270185.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,4000.0,214000,Sheppard Pratt Hospital,,212891070.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,4003.0,214003,Brook Lane Psychiatric Hospital,,28453897.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,4013.0,,,,,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,4019.0,,,,,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,4020.0,214020,J Kent McNew,,9248920.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,5034.0,213300,Mt. Washington Pediatric Hospital,,60936419.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,5050.0,210057,Shady Grove Adventist Hospital,267106670.0,530671704.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2024,8992.0,218992,University of Maryland Shock Trauma,136746910.0,274849843.0,ry24_input_file_20240611_2__mid_final_targets.csv
+2025,1.0,210001,Meritus Medical Center,257009869.0,537741990.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,2.0,210002,University of Maryland Medical Center,997690274.0,1998637892.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,3.0,210003,University of Maryland Capital Region Medical Center,219514218.0,484423427.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,4.0,210004,Holy Cross Hospital,316392160.0,637301387.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,5.0,210005,Frederick Health Hospital,222079639.0,459869398.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,6.0,210006,University of Maryland Harford Memorial Hospital,16965285.0,33887770.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,8.0,210008,Mercy Medical Center ,349241500.0,717961425.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,9.0,210009,Johns Hopkins Hospital,1598706801.0,3309701301.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,10.0,210010,University of Maryland Shore Medical Center at Cambridge,8703732.0,17478978.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,11.0,210011,Ascension St. Agnes Hospital,280511873.0,567829402.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,12.0,210012,Sinai Hospital of Baltimore ,491445783.0,991954505.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,13.0,210013,Grace Medical Center,17308872.0,34996531.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,15.0,210015,MedStar Franklin Square Hospital Center,354822451.0,741428412.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,16.0,210016,Adventist White Oak,189344499.0,417226607.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,17.0,210017,Garrett County Memorial Hospital,48409114.0,98002408.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,18.0,210018,MedStar Montgomery Medical Center,115546045.0,241894847.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,19.0,210019,"TidalHealth Peninsula Regional, Inc",314697257.0,649708667.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,22.0,210022,Suburban Hospital,221221748.0,467639544.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,23.0,210023,Anne Arundel Medical Center,385431028.0,791578682.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,24.0,210024,MedStar Union Memorial Hospital,257216706.0,524976000.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,27.0,210027,Western Maryland Regional Medical Center,202520401.0,405880860.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,28.0,210028,MedStar St. Mary's Hospital,122191105.0,255238991.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,29.0,210029,Johns Hopkins Bayview Medical Center,427666299.0,868799364.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,30.0,210030,University of Maryland Shore Medical Center at Chestertown,28619419.0,55567778.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,32.0,210032,"ChristianaCare, Union ",102202004.0,209653054.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,33.0,210033,Carroll Hospital Center ,143435118.0,289413828.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,34.0,210034,MedStar Harbor Hospital Center,115172058.0,241328443.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,35.0,210035,University of Maryland Charles Regional Medical Center,97838595.0,197165399.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,37.0,210037,University of Maryland Shore Medical Center at Easton,150622136.0,319683808.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,38.0,210038,University of Maryland Midtown Campus,142099720.0,285895984.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,39.0,210039,Calvert Memorial Hospital,97415674.0,197668656.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,40.0,210040,Northwest Hospital Center ,159449783.0,321874950.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,43.0,210043,University of Maryland Baltimore Washington Medical Center,275151597.0,555174137.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,44.0,210044,Greater Baltimore Medical Center,267179051.0,534941230.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,45.0,210045,TidalHealth McCready Pavillion,3037561.0,6199186.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,48.0,210048,Howard County General Hospital,189308699.0,401928869.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,49.0,210049,University of Maryland Upper Chesapeake Medical Center,231580874.0,464467876.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,51.0,210051,Doctors Community Hospital,160277620.0,328794454.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,55.0,210055,University of Maryland Laurel Medical Center,21997042.0,44920580.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,58.0,210058,University of Maryland Rehabilitation & Orthopaedic Institute,77020715.0,156533115.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,60.0,210060,Fort Washington Medical Center,35485812.0,71578440.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,61.0,210061,Atlantic General Hospital ,73590759.0,140870362.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,62.0,210062,MedStar Southern Maryland Hospital Center,175338526.0,361263218.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,63.0,210063,University of Maryland St. Joseph Medical Center,252524869.0,507442510.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,64.0,210064,Levindale Hospital ,37421341.0,76327734.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,65.0,210065,Holy Cross Hospital - Germantown,90226424.0,180482138.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,87.0,210087,Germantown Emergency Center,9504198.0,22765241.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,88.0,210088,University of Maryland Queen Anne's Freestanding Emergency Center,4602380.0,9264306.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,333.0,210333,University of Maryland Bowie Health Center,12383886.0,24910301.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,2004.0,210056,MedStar Good Samaritan Hospital,163940974.0,327680434.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,4000.0,214000,Sheppard Pratt Hospital,,221791588.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,4003.0,214003,Brook Lane Psychiatric Hospital,,27773584.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,4013.0,,,,,ry25_input_file_20250630__mid_final_targets.csv
+2025,4019.0,,,,,ry25_input_file_20250630__mid_final_targets.csv
+2025,4020.0,214020,J Kent McNew,,9648808.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,4022.0,214022, UM Upper Chesapeake Behavioral Health Pavilion at Aberdeen,,25171716.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,5034.0,213300,Mt. Washington Pediatric Hospital,,64869669.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,5050.0,210057,Shady Grove Adventist Hospital,275785106.0,564896195.0,ry25_input_file_20250630__mid_final_targets.csv
+2025,8992.0,218992,University of Maryland Shock Trauma,141926308.0,285797359.0,ry25_input_file_20250630__mid_final_targets.csv
+2026,1.0,210001,Meritus Medical Center,290841445.0,,ry26_input_file_january_update__mid_final_targets.csv
+2026,2.0,210002,University of Maryland Medical Center,1061717992.0,2171623297.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,3.0,210003,University of Maryland Capital Region Medical Center,255641604.0,517983453.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,4.0,210004,Holy Cross Hospital,340840627.0,691089123.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,5.0,210005,Frederick Health Hospital,255017469.0,511737910.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,6.0,210006,University of Maryland Harford Memorial Hospital,17742871.0,34841971.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,8.0,210008,Mercy Medical Center ,376099483.0,767439588.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,9.0,210009,Johns Hopkins Hospital,1731247110.0,3508707798.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,10.0,210010,University of Maryland Shore Medical Center at Cambridge,9187266.0,18359438.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,11.0,210011,Ascension St. Agnes Hospital,288728003.0,579610900.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,12.0,210012,Sinai Hospital of Baltimore ,525517757.0,1056230607.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,13.0,210013,Grace Medical Center,18073241.0,36073241.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,15.0,210015,MedStar Franklin Square Hospital Center,380038692.0,790759401.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,16.0,210016,Adventist White Oak,236564765.0,477243046.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,17.0,210017,Garrett County Memorial Hospital,50899338.0,104997003.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,18.0,210018,MedStar Montgomery Medical Center,123860077.0,254853693.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,19.0,210019,"TidalHealth Peninsula Regional, Inc",351215302.0,710390255.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,22.0,210022,Suburban Hospital,252448480.0,513027956.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,23.0,210023,Anne Arundel Medical Center,435700929.0,895813643.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,24.0,210024,MedStar Union Memorial Hospital,271719339.0,548347544.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,27.0,210027,Western Maryland Regional Medical Center,208979821.0,420081535.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,28.0,210028,MedStar St. Mary's Hospital,134938143.0,274650991.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,29.0,210029,Johns Hopkins Bayview Medical Center,449202736.0,895134779.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,30.0,210030,University of Maryland Shore Medical Center at Chestertown,30007404.0,60820306.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,32.0,210032,"ChristianaCare, Union ",117936836.0,238669391.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,33.0,210033,Carroll Hospital Center ,162042954.0,324495302.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,34.0,210034,MedStar Harbor Hospital Center,121979113.0,247755515.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,35.0,210035,University of Maryland Charles Regional Medical Center,101817173.0,201497323.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,37.0,210037,University of Maryland Shore Medical Center at Easton,159136794.0,316867818.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,38.0,210038,University of Maryland Midtown Campus,148597156.0,302201650.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,39.0,210039,Calvert Memorial Hospital,103485492.0,206540804.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,40.0,210040,Northwest Hospital Center ,176992975.0,354346537.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,43.0,210043,University of Maryland Baltimore Washington Medical Center,289841599.0,590561017.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,44.0,210044,Greater Baltimore Medical Center,288275202.0,579275202.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,45.0,210045,TidalHealth McCready Pavillion,3397368.0,6861619.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,48.0,210048,Howard County General Hospital,218793091.0,442497884.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,49.0,210049,University of Maryland Upper Chesapeake Medical Center,242257753.0,487858531.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,51.0,210051,Doctors Community Hospital,169951048.0,347259159.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,55.0,210055,University of Maryland Laurel Medical Center,23431515.0,47325296.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,58.0,210058,University of Maryland Rehabilitation & Orthopaedic Institute,81596773.0,163767294.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,60.0,210060,Fort Washington Medical Center,37005967.0,75783933.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,61.0,210061,Atlantic General Hospital ,78260521.0,151552053.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,62.0,210062,MedStar Southern Maryland Hospital Center,193719837.0,387752618.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,63.0,210063,University of Maryland St. Joseph Medical Center,269523086.0,546124724.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,64.0,210064,Levindale Hospital ,40990695.0,83240643.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,65.0,210065,Holy Cross Hospital - Germantown,101209374.0,204223075.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,87.0,210087,Germantown Emergency Center,9763390.0,19653950.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,88.0,210088,University of Maryland Queen Anne's Freestanding Emergency Center,4912406.0,9753570.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,333.0,210333,University of Maryland Bowie Health Center,12832468.0,25704556.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,2004.0,210056,MedStar Good Samaritan Hospital,173151337.0,343006990.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,4000.0,214000,Sheppard Pratt Hospital,,221870082.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,4003.0,214003,Brook Lane Psychiatric Hospital,,29807880.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,4013.0,,,,,ry26_input_file_january_update__mid_final_targets.csv
+2026,4019.0,,,,,ry26_input_file_january_update__mid_final_targets.csv
+2026,4020.0,214020,J Kent McNew,,10731585.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,4022.0,214022, UM Upper Chesapeake Behavioral Health Pavilion at Aberdeen,,26301076.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,5034.0,213300,Mt. Washington Pediatric Hospital,,71996189.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,5050.0,210057,Shady Grove Adventist Hospital,295128296.0,593215195.0,ry26_input_file_january_update__mid_final_targets.csv
+2026,8992.0,218992,University of Maryland Shock Trauma,150943087.0,302526051.0,ry26_input_file_january_update__mid_final_targets.csv
