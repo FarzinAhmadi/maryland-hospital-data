@@ -1,41 +1,41 @@
 {
- "version": "0.1.0",
- "release_date": "2026-09-16",
- "n_tables": 13,
- "total_rows": 306852,
+ "version": "0.1.1",
+ "release_date": "2026-09-18",
+ "n_tables": 14,
+ "total_rows": 314749,
  "tables": [
   {
    "table": "statewide_annual",
    "file": "statewide_annual.csv",
    "rows": 10,
-   "columns": 31,
-   "bytes": 4213,
-   "sha256": "9898688ca9bf660b7f97665ac6b8f34f2a0bbd4dc7021d5e11a879575cd69510"
+   "columns": 29,
+   "bytes": 4143,
+   "sha256": "e774298781f89b3efe501f7f80b001defb1b17c706635ac0d99f13ff78fabb7c"
   },
   {
    "table": "hospital_annual",
    "file": "hospital_annual.csv",
    "rows": 598,
-   "columns": 30,
-   "bytes": 185509,
-   "sha256": "fd53818e84a14f59621ac96ce7e021dd9c7d1e28bec2c94cfc84e20bd5193542"
+   "columns": 28,
+   "bytes": 183291,
+   "sha256": "b44c4e098e8f12106a2f224032daedd0242458d1fbb2b2777188b77714226885"
   },
   {
    "table": "hospital_annual_by_setting",
    "file": "hospital_annual_by_setting.csv",
    "rows": 1129,
-   "columns": 27,
-   "bytes": 297145,
-   "sha256": "5a28bad0f69ec40948204dffdf4759e375ef73c6fa2de01e6bd2011396a8785f"
+   "columns": 25,
+   "bytes": 293436,
+   "sha256": "b7bd770ee45cea8231091e472e0b2c754407e099544055bfbcadd5705640abaf"
   },
   {
    "table": "revenue_volume_monthly",
    "file": "revenue_volume_monthly.csv.gz",
-   "rows": 300730,
-   "columns": 43,
-   "bytes": 16801774,
-   "sha256": "8eec0facf56d57be1689e0a9bd2fd2a06a6983ae242142d5d3a7594d7735acf7",
-   "sha256_uncompressed": "518282f97dba6f739587635ab4aab772663129054560eecdec8aeffefde12903"
+   "rows": 308207,
+   "columns": 37,
+   "bytes": 17264740,
+   "sha256": "eb2e6ddd1fa3c4dd8a1ed3804b001c5e8183f77e6df5637104d979e466bfb971",
+   "sha256_uncompressed": "c32fb087e18283fad4761de675339554eca990dc0034b82e5b6831244006e996"
   },
   {
    "table": "approved_gbr_targets",
@@ -48,26 +48,26 @@
   {
    "table": "quality_adjustments",
    "file": "quality_adjustments.csv",
-   "rows": 1845,
+   "rows": 1805,
    "columns": 9,
-   "bytes": 309803,
-   "sha256": "37a2b7a69adb389e336da0ceb55e9bb60201799c534a6e272af2bdef4efeffda"
+   "bytes": 303492,
+   "sha256": "a1e995b7c849832bbe8a9722ad9b942974afcdddc34b9be1878dbab8e6fd7294"
   },
   {
    "table": "financial_hospital_annual",
    "file": "financial_hospital_annual.csv",
-   "rows": 1274,
-   "columns": 51,
-   "bytes": 484974,
-   "sha256": "73254109823319884ca4508aade0bb5608040eee1e0fd6e4226c2c913189360c"
+   "rows": 1332,
+   "columns": 52,
+   "bytes": 515036,
+   "sha256": "c1e36a4f1fc94f28589bf956f6971a0660d827f89222bc208f2514afaadb1f17"
   },
   {
    "table": "financial_statewide_annual",
    "file": "financial_statewide_annual.csv",
-   "rows": 20,
-   "columns": 46,
-   "bytes": 8977,
-   "sha256": "9e9c7f5b2e5e80d671a3a52d3b9e6875f50399e8c04047be2d1b14099afddba8"
+   "rows": 21,
+   "columns": 47,
+   "bytes": 9486,
+   "sha256": "5dc044f8c6da9fa9e30d7986367662b2af4f0425166b4d0acdcaa36845706091"
   },
   {
    "table": "disclosure_hospital_annual",
@@ -90,16 +90,16 @@
    "file": "rate_center_reference.csv",
    "rows": 82,
    "columns": 11,
-   "bytes": 8598,
-   "sha256": "3f31c882cfa531eb3cee1b8aede6c9de690a425823bdc94be47c4a4aa1432e7d"
+   "bytes": 8602,
+   "sha256": "f2b3c998683d4015542ae292c5c163a38391d4e5439ff424b858ed8ce739e2f7"
   },
   {
    "table": "financial_extraction_log",
    "file": "financial_extraction_log.csv",
-   "rows": 22,
+   "rows": 23,
    "columns": 7,
-   "bytes": 2020,
-   "sha256": "63df8b9f5372a42e3ee15bed55f51f16f42868f1c56c116960a96acf9d893145"
+   "bytes": 2124,
+   "sha256": "5e05139a579237e51094fee07668b7e3b2087a69a85f785c421d2e23cefc7da3"
   },
   {
    "table": "REVIEW_unresolved_hospital_names",
@@ -108,6 +108,14 @@
    "columns": 7,
    "bytes": 5737,
    "sha256": "3942be4d28520cc8cba0726cb1ff58081dfab05c0cbe8a2389c83d40587ac826"
+  },
+  {
+   "table": "REVIEW_conflicting_report_rows",
+   "file": "REVIEW_conflicting_report_rows.csv",
+   "rows": 400,
+   "columns": 10,
+   "bytes": 56272,
+   "sha256": "9cf789d076c7c335914972dddd611159ecaa776f2ce6585619857a290c78c572"
   }
  ]
 }

@@ -1352,46 +1352,6 @@ rate_year,program,hospid,hospital_name,pct_adjustment,dollar_adjustment,source_f
 2026,QBR,62,MedStar- Southern MD,-0.0028,-590191.0,ry2026__final_ry_2026_qbr_revenue_adjustments_1__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
 2026,QBR,63,UMMS- St. Joe,0.0045,1374109.0,ry2026__final_ry_2026_qbr_revenue_adjustments_1__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
 2026,QBR,65,Trinity - Holy Cross Germantown,-0.0107,-1141921.0,ry2026__final_ry_2026_qbr_revenue_adjustments_1__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,1,Meritus,0.0073,1969029.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,2,UMMS- UMMC,-0.0087,-13680247.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,3,UMMS- Capital Region,-0.0011,-357884.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,4,Trinity - Holy Cross,-0.0096,-4231267.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,5,Frederick,-0.0036,-921097.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,8,Mercy,0.002,488189.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,9,JHH- Johns Hopkins,0.0011,2106856.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,11,St. Agnes,0.0018,504381.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,12,Lifebridge- Sinai,-0.0006,-316289.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,15,MedStar- Franklin Square,-0.003,-1222633.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,16,Adventist- White Oak,0.0056,1508278.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,17,Garrett,0.02,635300.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,18,MedStar- Montgomery,0.0097,1039860.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,19,Tidal- Peninsula,0.0015,534564.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,22,JHH- Suburban,-0.0014,-387364.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,23,Luminis- Anne Arundel,0.0012,503832.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,24,MedStar- Union Mem,0.0002,61313.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,27,Western Maryland,-0.002,-413099.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,28,MedStar- St. Mary's,0.0026,259126.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,29,JHH- Bayview,-0.0095,-4803181.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,32,"ChristianaCare, Union",0.006,666951.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,33,Lifebridge- Carroll,-0.0039,-650215.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,34,MedStar- Harbor,0.0033,452353.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,35,UMMS- Charles,-0.0068,-715474.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,37,UMMS- Easton,-0.001,-138385.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,38,UMMS- Midtown,0.0001,14097.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,39,Calvert,0.013,1104310.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,40,Lifebridge- Northwest,-0.0014,-242991.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,43,UMMS- BWMC,-0.0004,-131870.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,44,GBMC,0.0019,522446.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,48,JHH- Howard County,-0.0074,-1895438.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,49,UMMS-Upper Chesapeake,-0.0057,-1483890.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,51,Luminis- Doctors,-0.0014,-273057.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,56,MedStar- Good Sam,-0.0067,-1337866.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,57,Adventist- Shady Grove,0.0002,72225.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,60,Adventist-Ft. Washington,0.0007,26128.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,61,Atlantic General,0.0112,558203.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,62,MedStar- Southern MD,-0.0028,-590191.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,63,UMMS- St. Joe,0.0045,1374109.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
-2027,QBR,65,Trinity - Holy Cross Germantown,-0.0107,-1141921.0,ry2027__final_ry_2026_qbr_revenue_adjustments_3__qbr_revenue_adjustments.csv,% Revenue Impact,$ Revenue Impact
 2018,RRIP,1,MERITUS,0.0023,,ry2018__rripresults_51217__rrip_revenue_impact.csv,RY 18 Scaling %,
 2018,RRIP,2,UNIVERSITY OF MARYLAND,0.0023,,ry2018__rripresults_51217__rrip_revenue_impact.csv,RY 18 Scaling %,
 2018,RRIP,3,PRINCE GEORGE,-0.0084,,ry2018__rripresults_51217__rrip_revenue_impact.csv,RY 18 Scaling %,

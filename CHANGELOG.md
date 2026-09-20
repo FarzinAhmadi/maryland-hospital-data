@@ -1,6 +1,45 @@
 # Changelog
 
-## 0.1.1 — unreleased
+## 0.1.1 — 2026-09-18
+
+First release built on a complete FY2026. Adds a fiscal year of revenue and volume,
+a fiscal year of hospital finances, and one new review table; corrects two extraction
+faults. Published figures change.
+
+### New data
+
+- **FY2026 Revenue and Volume, full twelve months** (HSCRC file of 2026-08-07)
+  replaces the nine month file of 2026-05-08. `revenue_volume_monthly` grows from
+  300,730 to 308,207 rows and FY2026 becomes a complete fiscal year, so every series
+  on the tracker now ends there rather than at FY2025.
+- **FY2025 Hospital Financial Condition Report** added as a twenty third report.
+  `financial_statewide_annual` extends to FY2025 (20 to 21 rows) and
+  `financial_hospital_annual` grows from 1,274 to 1,332 rows.
+- **`REVIEW_conflicting_report_rows`** (400 rows): hospital-year-field cells where a
+  single report gives two different values, normally a facility appearing both in its
+  own detail block and in a later summary table. The larger value is published; the
+  table exists so the choice can be checked against the PDF.
+
+### Corrections
+
+- **Quality adjustments took the rate year from the enclosing folder.** HSCRC re-filed
+  `FINAL RY 2026 QBR Revenue Adjustments` in the RY2027 package and posted no RY2027
+  QBR file, so forty rows of RY2026 adjustments were published as RY2027. The rate
+  year now comes from the document's own name where it states one.
+  `quality_adjustments` falls from 1,845 to 1,805 rows.
+- **The restatement merge is deterministic in a shipped build for the first time.**
+  The rule (most recent restatement wins, with a total sort order to break ties) was
+  written after the v0.1.0 release; v0.1.0 shipped nine rows decided by iteration
+  order.
+
+### Changed by the source, not by us
+
+- **Kaiser Permanente is no longer broken out.** The partial year FY2026 file carried
+  `KP_*` columns; the final FY2026 file does not. Six Kaiser columns therefore leave
+  `revenue_volume_monthly` (43 to 37), and two leave `statewide_annual` and
+  `hospital_annual`. Medicaid (`MCAID_*`) is unaffected.
+
+### Earlier work in this version
 
 Reproducibility fixes. **No published figure changes**, with one exception noted
 below. Everything here was found by rebuilding v0.1.0 from source and comparing.

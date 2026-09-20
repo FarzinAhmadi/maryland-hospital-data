@@ -3,6 +3,23 @@
 Generated from the built tables. Types, null rates and ranges are read off the actual output, so this file cannot drift from the data.
 
 
+## `REVIEW_conflicting_report_rows`
+
+
+
+| column | type | non-null | example | description |
+|---|---|---:|---|---|
+| `report_fy` | int64 | 100% | `2007` | Fiscal year of the source report. |
+| `source_file` | object | 100% | `Financial Disclosure FY200` | Originating HSCRC file name. |
+| `entity_key` | object | 100% | `ALL SPECIALTY HOSPITALS` | TODO — undocumented |
+| `fiscal_year` | int64 | 100% | `2005` | Maryland fiscal year, ending 30 June. FY2025 = July 2024 - June 2025. |
+| `field` | object | 100% | `excess_profit` | TODO — undocumented |
+| `n_distinct_values` | int64 | 100% | `2` | TODO — undocumented |
+| `min_value` | float64 | 100% | `609600.0` | TODO — undocumented |
+| `max_value` | float64 | 100% | `10389462.0` | TODO — undocumented |
+| `n_rows` | int64 | 100% | `2` | TODO — undocumented |
+| `value_used` | float64 | 100% | `10389462.0` | TODO — undocumented |
+
 ## `REVIEW_unresolved_hospital_names`
 
 A to-do list, not a dataset. PDF hospital names that no automated match resolved with high confidence. Resolve with a source, then add to the crosswalk.
@@ -104,9 +121,9 @@ Per-PDF extraction outcome. Failures are visible here.
 | `file` | object | 100% | `Financial Disclosure FY200` | Source PDF file name. |
 | `chars` | int64 | 100% | `133755` | Characters of extractable text. Near zero means a scanned image. |
 | `status` | object | 100% | `NO_BLOCKS_PARSED` | Extraction outcome for that PDF. |
-| `n_entities` | float64 | 77% | `11.0` | Distinct entities parsed from that report. |
-| `n_records` | float64 | 77% | `360.0` | Field-level records parsed from that report. |
-| `fys` | object | 77% | `[2005, 2006, 2007]` | Fiscal years of hospital detail found in that report. |
+| `n_entities` | float64 | 78% | `11.0` | Distinct entities parsed from that report. |
+| `n_records` | float64 | 78% | `360.0` | Field-level records parsed from that report. |
+| `fys` | object | 78% | `[2005, 2006, 2007]` | Fiscal years of hospital detail found in that report. |
 
 ## `financial_hospital_annual`
 
@@ -119,30 +136,30 @@ Hospital-level financial condition from the same PDFs. `hosp_num` is populated b
 | `fiscal_year` | int64 | 100% | `2007` | Maryland fiscal year, ending 30 June. FY2025 = July 2024 - June 2025. |
 | `eipa_regulated` | float64 | 0% | `` | Equivalent Inpatient Admissions, regulated services. Not published after FY2012. |
 | `eipa_total` | float64 | 0% | `` | Equivalent Inpatient Admissions. HSCRC stopped publishing this after FY2012. |
-| `excess_profit` | float64 | 81% | `-819368.0` | Total excess profit, operating and non-operating. |
+| `excess_profit` | float64 | 78% | `-819368.0` | Total excess profit, operating and non-operating. |
 | `gross_revenue_regulated` | float64 | 88% | `53432546.0` | Gross patient revenue, regulated services. |
 | `gross_revenue_total` | float64 | 100% | `2842250.0` | Gross revenue, regulated and unregulated combined. Nominal dollars. |
 | `gross_revenue_unregulated` | float64 | 88% | `609207.0` | Gross revenue, non-rate-regulated services. Nominal dollars. |
 | `inpatient_admissions` | float64 | 12% | `260.0` | Volume of the ADM rate center. Not ECMAD. |
 | `net_operating_revenue_regulated` | float64 | 88% | `45122235.0` | Net operating revenue, regulated services. |
 | `net_operating_revenue_total` | float64 | 100% | `2702504.0` | Net operating revenue, regulated and unregulated combined. Nominal dollars. |
-| `net_operating_revenue_unregulated` | float64 | 64% | `674447.0` | Net operating revenue, non-rate-regulated services. Nominal dollars. |
+| `net_operating_revenue_unregulated` | float64 | 65% | `674447.0` | Net operating revenue, non-rate-regulated services. Nominal dollars. |
 | `net_patient_revenue_regulated` | float64 | 88% | `44597472.0` | Net patient revenue, regulated services. |
 | `net_patient_revenue_total` | float64 | 100% | `2702504.0` | Net patient revenue, regulated and unregulated combined. Nominal dollars. |
 | `net_patient_revenue_unregulated` | float64 | 88% | `609207.0` | Net patient revenue, non-rate-regulated services. Nominal dollars. |
-| `non_operating_profit` | float64 | 82% | `0.0` | Total non-operating profit or loss. |
-| `nor_per_eipa_regulated` | float64 | 31% | `8690.87` | Net operating revenue per EIPA, regulated. |
-| `nor_per_eipa_total` | float64 | 31% | `9283.31` | Net operating revenue per EIPA, all activities. |
-| `npr_per_eipa_regulated` | float64 | 31% | `8437.68` | Net patient revenue per EIPA, regulated. HSCRC's own cost-per-case measure of the pre-2014 era. |
-| `npr_per_eipa_total` | float64 | 31% | `8637.78` | Net patient revenue per EIPA, all activities. |
+| `non_operating_profit` | float64 | 79% | `0.0` | Total non-operating profit or loss. |
+| `nor_per_eipa_regulated` | float64 | 30% | `8690.87` | Net operating revenue per EIPA, regulated. |
+| `nor_per_eipa_total` | float64 | 30% | `9283.31` | Net operating revenue per EIPA, all activities. |
+| `npr_per_eipa_regulated` | float64 | 30% | `8437.68` | Net patient revenue per EIPA, regulated. HSCRC's own cost-per-case measure of the pre-2014 era. |
+| `npr_per_eipa_total` | float64 | 30% | `8637.78` | Net patient revenue per EIPA, all activities. |
 | `operating_expenses_regulated` | float64 | 88% | `43086297.0` | Operating expenses, rate-regulated services. Nominal dollars. |
 | `operating_expenses_total` | float64 | 100% | `3521872.0` | Operating expenses, regulated and unregulated combined. Nominal dollars. |
-| `operating_expenses_unregulated` | float64 | 24% | `1036079.0` | Operating expenses, non-rate-regulated services. Nominal dollars. |
-| `operating_profit_regulated` | float64 | 64% | `2035938.0` | Net operating profit on regulated activities. |
-| `operating_profit_total` | float64 | 76% | `-819368.0` | Net operating profit, regulated and unregulated combined. |
-| `operating_profit_unregulated` | float64 | 64% | `-679974.0` | Net operating profit on unregulated activities. Negative in every year of the series. |
-| `opex_per_eipa_regulated` | float64 | 31% | `7883.3` | Operating expense per EIPA, regulated. |
-| `opex_per_eipa_total` | float64 | 31% | `8731.61` | Operating expense per EIPA, all activities. |
+| `operating_expenses_unregulated` | float64 | 27% | `1036079.0` | Operating expenses, non-rate-regulated services. Nominal dollars. |
+| `operating_profit_regulated` | float64 | 65% | `2035938.0` | Net operating profit on regulated activities. |
+| `operating_profit_total` | float64 | 77% | `-819368.0` | Net operating profit, regulated and unregulated combined. |
+| `operating_profit_unregulated` | float64 | 65% | `-679974.0` | Net operating profit on unregulated activities. Negative in every year of the series. |
+| `opex_per_eipa_regulated` | float64 | 30% | `7883.3` | Operating expense per EIPA, regulated. |
+| `opex_per_eipa_total` | float64 | 30% | `8731.61` | Operating expense per EIPA, all activities. |
 | `other_operating_revenue_regulated` | float64 | 88% | `524763.0` | Other operating revenue, rate-regulated services. Nominal dollars. |
 | `other_operating_revenue_total` | float64 | 100% | `0.0` | Other operating revenue, regulated and unregulated combined. Nominal dollars. |
 | `other_operating_revenue_unregulated` | float64 | 88% | `65240.0` | Other operating revenue, non-rate-regulated services. Nominal dollars. |
@@ -151,9 +168,10 @@ Hospital-level financial condition from the same PDFs. `hosp_num` is populated b
 | `pct_change_npr_per_eipa_regulated` | float64 | 11% | `1.08` | Year-over-year percent change in net patient revenue per EIPA, regulated, as printed by HSCRC. |
 | `pct_change_operating_profit_regulated` | float64 | 11% | `-11.17` | Year-over-year percent change in regulated operating profit, as printed by HSCRC. |
 | `pct_change_operating_profit_total` | float64 | 11% | `2.92` | Year-over-year percent change in total operating profit, as printed by HSCRC. |
-| `pct_excess_profit_of_total_revenue` | float64 | 68% | `1.01` | Excess profit as a percent of total revenue, as printed by HSCRC. |
-| `pct_operating_profit_of_regulated_nor` | float64 | 68% | `2.68` | The margin **as printed by HSCRC**. Blank FY2010-FY2013, when the reports omitted it. |
-| `pct_operating_profit_of_total_nor` | float64 | 68% | `1.13` | Total operating margin as printed by HSCRC. |
+| `pct_excess_profit_of_total_revenue` | float64 | 65% | `1.01` | Excess profit as a percent of total revenue, as printed by HSCRC. |
+| `pct_operating_profit_of_regulated_nor` | float64 | 65% | `2.68` | The margin **as printed by HSCRC**. Blank FY2010-FY2013, when the reports omitted it. |
+| `pct_operating_profit_of_total_nor` | float64 | 65% | `1.13` | Total operating margin as printed by HSCRC. |
+| `latest_report_fy` | int64 | 100% | `2009` | TODO — undocumented |
 | `reported_in_reports` | object | 100% | `FY2009` | Which annual reports carried a figure for this entity-year. |
 | `n_source_reports` | int64 | 100% | `1` | How many reports covered it. Higher means more restatement passes. |
 | `period_labels` | object | 100% | `YEAR 2007` | The fiscal-year-end label(s) printed in the source. Not always June -- several hospitals report on a December or September year. |
@@ -163,8 +181,8 @@ Hospital-level financial condition from the same PDFs. `hosp_num` is populated b
 | `matched_name` | object | 91% | `Adventist BH-Rockville` | The crosswalk name that matched. |
 | `match_basis` | object | 100% | `UNMATCHED` | Which name field produced the match. |
 | `match_confidence` | object | 100% | `none` | `high` (>=0.85), `medium` (>=0.62), or `none`. Treat `medium` as provisional. |
-| `margin_regulated_pct` | float64 | 64% | `4.51` | Operating profit as a percent of regulated net operating revenue. Derived, so the series is continuous; matches HSCRC's printed value exactly wherever both exist. |
-| `margin_total_pct` | float64 | 75% | `-30.32` | Operating profit as a percent of total net operating revenue. Derived. |
+| `margin_regulated_pct` | float64 | 65% | `4.51` | Operating profit as a percent of regulated net operating revenue. Derived, so the series is continuous; matches HSCRC's printed value exactly wherever both exist. |
+| `margin_total_pct` | float64 | 77% | `-30.32` | Operating profit as a percent of total net operating revenue. Derived. |
 
 ## `financial_statewide_annual`
 
@@ -175,9 +193,9 @@ Extracted from HSCRC Financial Condition / Disclosure PDFs. Each report restates
 | `entity` | object | 100% | `ALL ACUTE HOSPITALS` | Entity name as printed in the source PDF, normalised for case and punctuation. |
 | `is_statewide_total` | bool | 100% | `True` | True for the statewide roll-up row rather than a hospital. |
 | `fiscal_year` | int64 | 100% | `2005` | Maryland fiscal year, ending 30 June. FY2025 = July 2024 - June 2025. |
-| `eipa_regulated` | float64 | 40% | `933558.0` | Equivalent Inpatient Admissions, regulated services. Not published after FY2012. |
-| `eipa_total` | float64 | 40% | `1008864.0` | Equivalent Inpatient Admissions. HSCRC stopped publishing this after FY2012. |
-| `excess_profit` | float64 | 80% | `368650149.0` | Total excess profit, operating and non-operating. |
+| `eipa_regulated` | float64 | 38% | `933558.0` | Equivalent Inpatient Admissions, regulated services. Not published after FY2012. |
+| `eipa_total` | float64 | 38% | `1008864.0` | Equivalent Inpatient Admissions. HSCRC stopped publishing this after FY2012. |
+| `excess_profit` | float64 | 81% | `368650149.0` | Total excess profit, operating and non-operating. |
 | `gross_revenue_regulated` | float64 | 100% | `9681250082.0` | Gross patient revenue, regulated services. |
 | `gross_revenue_total` | float64 | 100% | `10675445671.0` | Gross revenue, regulated and unregulated combined. Nominal dollars. |
 | `gross_revenue_unregulated` | float64 | 100% | `994195589.0` | Gross revenue, non-rate-regulated services. Nominal dollars. |
@@ -188,30 +206,31 @@ Extracted from HSCRC Financial Condition / Disclosure PDFs. Each report restates
 | `net_patient_revenue_regulated` | float64 | 90% | `9833602955.0` | Net patient revenue, regulated services. |
 | `net_patient_revenue_total` | float64 | 90% | `10459541483.0` | Net patient revenue, regulated and unregulated combined. Nominal dollars. |
 | `net_patient_revenue_unregulated` | float64 | 90% | `625938528.0` | Net patient revenue, non-rate-regulated services. Nominal dollars. |
-| `non_operating_profit` | float64 | 80% | `99529166.0` | Total non-operating profit or loss. |
-| `nor_per_eipa_regulated` | float64 | 45% | `9062.15` | Net operating revenue per EIPA, regulated. |
-| `nor_per_eipa_total` | float64 | 45% | `9118.86` | Net operating revenue per EIPA, all activities. |
-| `npr_per_eipa_regulated` | float64 | 45% | `8957.57` | Net patient revenue per EIPA, regulated. HSCRC's own cost-per-case measure of the pre-2014 era. |
-| `npr_per_eipa_total` | float64 | 45% | `8838.27` | Net patient revenue per EIPA, all activities. |
+| `non_operating_profit` | float64 | 81% | `99529166.0` | Total non-operating profit or loss. |
+| `nor_per_eipa_regulated` | float64 | 43% | `9062.15` | Net operating revenue per EIPA, regulated. |
+| `nor_per_eipa_total` | float64 | 43% | `9118.86` | Net operating revenue per EIPA, all activities. |
+| `npr_per_eipa_regulated` | float64 | 43% | `8957.57` | Net patient revenue per EIPA, regulated. HSCRC's own cost-per-case measure of the pre-2014 era. |
+| `npr_per_eipa_total` | float64 | 43% | `8838.27` | Net patient revenue per EIPA, all activities. |
 | `operating_expenses_regulated` | float64 | 100% | `8044819951.0` | Operating expenses, rate-regulated services. Nominal dollars. |
 | `operating_expenses_total` | float64 | 100% | `8930566091.0` | Operating expenses, regulated and unregulated combined. Nominal dollars. |
-| `operating_expenses_unregulated` | float64 | 25% | `2840382402.0` | Operating expenses, non-rate-regulated services. Nominal dollars. |
+| `operating_expenses_unregulated` | float64 | 29% | `2840382402.0` | Operating expenses, non-rate-regulated services. Nominal dollars. |
 | `operating_profit_regulated` | float64 | 95% | `415220488.0` | Net operating profit on regulated activities. |
 | `operating_profit_total` | float64 | 95% | `269120983.0` | Net operating profit, regulated and unregulated combined. |
 | `operating_profit_unregulated` | float64 | 95% | `-146099505.0` | Net operating profit on unregulated activities. Negative in every year of the series. |
-| `opex_per_eipa_regulated` | float64 | 45% | `8617.38` | Operating expense per EIPA, regulated. |
-| `opex_per_eipa_total` | float64 | 45% | `8852.1` | Operating expense per EIPA, all activities. |
+| `opex_per_eipa_regulated` | float64 | 43% | `8617.38` | Operating expense per EIPA, regulated. |
+| `opex_per_eipa_total` | float64 | 43% | `8852.1` | Operating expense per EIPA, all activities. |
 | `other_operating_revenue_regulated` | float64 | 100% | `97627822.0` | Other operating revenue, rate-regulated services. Nominal dollars. |
 | `other_operating_revenue_total` | float64 | 100% | `283073343.0` | Other operating revenue, regulated and unregulated combined. Nominal dollars. |
 | `other_operating_revenue_unregulated` | float64 | 100% | `185445521.0` | Other operating revenue, non-rate-regulated services. Nominal dollars. |
-| `pct_change_excess_profit` | float64 | 25% | `40.64` | Year-over-year percent change in total excess profit, as printed by HSCRC. |
-| `pct_change_nor_per_eipa_regulated` | float64 | 25% | `4.36` | Year-over-year percent change in net operating revenue per EIPA, regulated, as printed by HSCRC. |
-| `pct_change_npr_per_eipa_regulated` | float64 | 25% | `4.21` | Year-over-year percent change in net patient revenue per EIPA, regulated, as printed by HSCRC. |
+| `pct_change_excess_profit` | float64 | 24% | `40.64` | Year-over-year percent change in total excess profit, as printed by HSCRC. |
+| `pct_change_nor_per_eipa_regulated` | float64 | 24% | `4.36` | Year-over-year percent change in net operating revenue per EIPA, regulated, as printed by HSCRC. |
+| `pct_change_npr_per_eipa_regulated` | float64 | 24% | `4.21` | Year-over-year percent change in net patient revenue per EIPA, regulated, as printed by HSCRC. |
 | `pct_change_operating_profit_regulated` | float64 | 0% | `` | Year-over-year percent change in regulated operating profit, as printed by HSCRC. |
-| `pct_change_operating_profit_total` | float64 | 25% | `33.45` | Year-over-year percent change in total operating profit, as printed by HSCRC. |
-| `pct_excess_profit_of_total_revenue` | float64 | 80% | `3.96` | Excess profit as a percent of total revenue, as printed by HSCRC. |
-| `pct_operating_profit_of_regulated_nor` | float64 | 80% | `4.91` | The margin **as printed by HSCRC**. Blank FY2010-FY2013, when the reports omitted it. |
-| `pct_operating_profit_of_total_nor` | float64 | 55% | `2.87` | Total operating margin as printed by HSCRC. |
+| `pct_change_operating_profit_total` | float64 | 24% | `33.45` | Year-over-year percent change in total operating profit, as printed by HSCRC. |
+| `pct_excess_profit_of_total_revenue` | float64 | 81% | `3.96` | Excess profit as a percent of total revenue, as printed by HSCRC. |
+| `pct_operating_profit_of_regulated_nor` | float64 | 81% | `4.91` | The margin **as printed by HSCRC**. Blank FY2010-FY2013, when the reports omitted it. |
+| `pct_operating_profit_of_total_nor` | float64 | 57% | `2.87` | Total operating margin as printed by HSCRC. |
+| `latest_report_fy` | int64 | 100% | `2007` | TODO — undocumented |
 | `reported_in_reports` | object | 100% | `FY2007` | Which annual reports carried a figure for this entity-year. |
 | `n_source_reports` | int64 | 100% | `1` | How many reports covered it. Higher means more restatement passes. |
 | `period_labels` | object | 100% | `Year 2005` | The fiscal-year-end label(s) printed in the source. Not always June -- several hospitals report on a December or September year. |
@@ -241,10 +260,8 @@ Hospital x fiscal year, both settings combined.
 | `medicare_nonffs_volume_md_resident` | float64 | 100% | `2575426.0` | Medicare non-FFS (Medicare Advantage) volume, Maryland residents, in the rate center's own unit of rate. |
 | `medicare_ffs_revenue_md_resident` | float64 | 100% | `120335327.0` | Medicare fee-for-service revenue, Maryland residents. |
 | `medicare_nonffs_revenue_md_resident` | float64 | 100% | `15195039.0` | Non-FFS Medicare (Medicare Advantage) revenue, Maryland residents. |
-| `medicaid_volume` | float64 | 10% | `3093644.0` | Medicaid (FY2026 onward only) volume, in the rate center's own unit of rate. |
-| `medicaid_revenue` | float64 | 10% | `25370527.87` | Medicaid revenue. FY2026 onward only. |
-| `kaiser_volume` | float64 | 10% | `22936.0` | Kaiser Permanente (FY2026 onward only) volume, in the rate center's own unit of rate. |
-| `kaiser_revenue` | float64 | 10% | `165810.28` | Kaiser Permanente revenue. FY2026 onward only. |
+| `medicaid_volume` | float64 | 10% | `3000705.0` | Medicaid (FY2026 onward only) volume, in the rate center's own unit of rate. |
+| `medicaid_revenue` | float64 | 10% | `26057083.98` | Medicaid revenue. FY2026 onward only. |
 | `revenue_inpatient` | float64 | 91% | `192822272.0` | Regulated revenue, inpatient setting. |
 | `revenue_outpatient` | float64 | 97% | `133130799.0` | Regulated revenue, outpatient setting. |
 | `outpatient_revenue_share` | float64 | 97% | `0.4084354799651511` | Outpatient share of regulated revenue. **Regulated only** -- care that migrates to an unregulated setting leaves this measure entirely. |
@@ -254,7 +271,7 @@ Hospital x fiscal year, both settings combined.
 | `medicare_volume_share` | float64 | 100% | `0.5611296650493259` | Medicare share of **volume**, Maryland residents. A different quantity from the revenue share; the two do not track each other. |
 | `md_resident_revenue_share` | float64 | 100% | `0.8483782133164808` | Maryland-resident share of revenue. |
 | `medicare_advantage_share_of_medicare_revenue` | float64 | 100% | `0.1121153837952448` | Non-FFS share of Medicare revenue. Relevant to AHEAD, whose targets anchor on FFS. |
-| `medicaid_revenue_share` | float64 | 10% | `0.0577060731694371` | Medicaid share of revenue. FY2026 onward only. |
+| `medicaid_revenue_share` | float64 | 10% | `0.0438919949319387` | Medicaid share of revenue. FY2026 onward only. |
 
 ## `hospital_annual_by_setting`
 
@@ -279,16 +296,14 @@ Hospital x fiscal year x setting.
 | `medicare_nonffs_volume_md_resident` | float64 | 100% | `1738444.0` | Medicare non-FFS (Medicare Advantage) volume, Maryland residents, in the rate center's own unit of rate. |
 | `medicare_ffs_revenue_md_resident` | float64 | 100% | `84935202.0` | Medicare fee-for-service revenue, Maryland residents. |
 | `medicare_nonffs_revenue_md_resident` | float64 | 100% | `10360056.0` | Non-FFS Medicare (Medicare Advantage) revenue, Maryland residents. |
-| `medicaid_volume` | float64 | 10% | `3035432.0` | Medicaid (FY2026 onward only) volume, in the rate center's own unit of rate. |
-| `medicaid_revenue` | float64 | 10% | `25023423.69` | Medicaid revenue. FY2026 onward only. |
-| `kaiser_volume` | float64 | 10% | `15729.0` | Kaiser Permanente (FY2026 onward only) volume, in the rate center's own unit of rate. |
-| `kaiser_revenue` | float64 | 10% | `100915.73` | Kaiser Permanente revenue. FY2026 onward only. |
+| `medicaid_volume` | float64 | 10% | `2943869.0` | Medicaid (FY2026 onward only) volume, in the rate center's own unit of rate. |
+| `medicaid_revenue` | float64 | 10% | `25741913.37` | Medicaid revenue. FY2026 onward only. |
 | `months_reported` | int64 | 100% | `12` | Distinct months present. Compare only complete years. |
 | `medicare_revenue_share` | float64 | 100% | `0.5779256891036386` | Medicare share of **revenue**, Maryland residents. |
 | `medicare_volume_share` | float64 | 100% | `0.5953583839386206` | Medicare share of **volume**, Maryland residents. A different quantity from the revenue share; the two do not track each other. |
 | `md_resident_revenue_share` | float64 | 100% | `0.8551495959968773` | Maryland-resident share of revenue. |
 | `medicare_advantage_share_of_medicare_revenue` | float64 | 98% | `0.1087153360768486` | Non-FFS share of Medicare revenue. Relevant to AHEAD, whose targets anchor on FFS. |
-| `medicaid_revenue_share` | float64 | 10% | `0.1070061197415623` | Medicaid share of revenue. FY2026 onward only. |
+| `medicaid_revenue_share` | float64 | 10% | `0.0820604515004698` | Medicaid share of revenue. FY2026 onward only. |
 
 ## `hospital_crosswalk`
 
@@ -329,7 +344,7 @@ One row per hospital per rate year per program. The four quality programs that m
 | `dollar_adjustment` | float64 | 92% | `0.0` | Adjustment in nominal dollars, where the source file reports one. |
 | `source_file` | object | 100% | `ry2016__fy_2015_scaling_fo` | Originating HSCRC file name. |
 | `pct_column` | object | 100% | `REVENUE NEUTRAL ADJUSTED P` | Label of the source-file column the percentage was read from. Labels vary by rate year, so the original is retained. |
-| `dollar_column` | object | 93% | `$ Revenue Adjustment` | Label of the source-file column the dollar amount was read from. |
+| `dollar_column` | object | 92% | `$ Revenue Adjustment` | Label of the source-file column the dollar amount was read from. |
 
 ## `rate_center_reference`
 
@@ -345,7 +360,7 @@ Official HSCRC rate center codes with names and units of rate, sourced to HSCRC 
 | `source` | object | 98% | `CCD;SUB` | Which HSCRC document defines the code. `UNCONFIRMED` = present in the data, defined in no document located. |
 | `fy_first` | float64 | 99% | `2017.0` | First fiscal year this rate center appears in the panel. |
 | `fy_last` | float64 | 99% | `2026.0` | Last fiscal year it appears. |
-| `total_revenue_all_years` | float64 | 99% | `79928084.0` | Revenue accounted for by this centre across the whole panel. |
+| `total_revenue_all_years` | float64 | 99% | `83353409.0` | Revenue accounted for by this centre across the whole panel. |
 | `inpatient_revenue_share` | float64 | 95% | `1.0` | Share of this centre's revenue billed inpatient. |
 | `in_published_panel` | bool | 100% | `True` | Whether the code appears in the published revenue panel. |
 
@@ -370,10 +385,8 @@ Statewide roll-up. Check `months_reported` before comparing years.
 | `medicare_nonffs_volume_md_resident` | float64 | 100% | `80243827.93` | Medicare non-FFS (Medicare Advantage) volume, Maryland residents, in the rate center's own unit of rate. |
 | `medicare_ffs_revenue_md_resident` | float64 | 100% | `5885072874.84` | Medicare fee-for-service revenue, Maryland residents. |
 | `medicare_nonffs_revenue_md_resident` | float64 | 100% | `438862063.44` | Non-FFS Medicare (Medicare Advantage) revenue, Maryland residents. |
-| `medicaid_volume` | float64 | 10% | `157690030.35` | Medicaid (FY2026 onward only) volume, in the rate center's own unit of rate. |
-| `medicaid_revenue` | float64 | 10% | `1311870329.26` | Medicaid revenue. FY2026 onward only. |
-| `kaiser_volume` | float64 | 10% | `31630227.96` | Kaiser Permanente (FY2026 onward only) volume, in the rate center's own unit of rate. |
-| `kaiser_revenue` | float64 | 10% | `203936341.69` | Kaiser Permanente revenue. FY2026 onward only. |
+| `medicaid_volume` | float64 | 10% | `289228666.09` | Medicaid (FY2026 onward only) volume, in the rate center's own unit of rate. |
+| `medicaid_revenue` | float64 | 10% | `2453164227.01` | Medicaid revenue. FY2026 onward only. |
 | `n_hospitals` | int64 | 100% | `59` | Facilities reporting that year. Moves between 58 and 62. |
 | `n_rate_centers` | int64 | 100% | `75` | Distinct rate centers that year. |
 | `months_reported` | int64 | 100% | `12` | Distinct months present. Compare only complete years. |
@@ -385,7 +398,7 @@ Statewide roll-up. Check `months_reported` before comparing years.
 | `medicare_volume_share` | float64 | 100% | `0.4182395332489769` | Medicare share of **volume**, Maryland residents. A different quantity from the revenue share; the two do not track each other. |
 | `md_resident_revenue_share` | float64 | 100% | `0.9139157339148992` | Maryland-resident share of revenue. |
 | `medicare_advantage_share_of_medicare_revenue` | float64 | 100% | `0.0693969919090736` | Non-FFS share of Medicare revenue. Relevant to AHEAD, whose targets anchor on FFS. |
-| `medicaid_revenue_share` | float64 | 10% | `0.0713603731303199` | Medicaid share of revenue. FY2026 onward only. |
+| `medicaid_revenue_share` | float64 | 10% | `0.0992824405928047` | Medicaid share of revenue. FY2026 onward only. |
 
 ## `revenue_volume_monthly`
 
@@ -430,9 +443,3 @@ Hospital x month x rate center x setting. The `_IN`/`_OUT` suffix in the HSCRC s
 | `medicaid_volume_nonmd_resident` | float64 | 0% | `` | Medicaid (FY2026 onward only) volume, out-of-state residents, in the rate center's own unit of rate. |
 | `medicaid_revenue_md_resident` | float64 | 0% | `` | Medicaid (FY2026 onward only) revenue, Maryland residents, in nominal dollars. |
 | `medicaid_revenue_nonmd_resident` | float64 | 0% | `` | Medicaid (FY2026 onward only) revenue, out-of-state residents, in nominal dollars. |
-| `kaiser_volume` | float64 | 0% | `` | Kaiser Permanente (FY2026 onward only) volume, in the rate center's own unit of rate. |
-| `kaiser_revenue` | float64 | 0% | `` | Kaiser Permanente revenue. FY2026 onward only. |
-| `kaiser_volume_md_resident` | float64 | 0% | `` | Kaiser Permanente (FY2026 onward only) volume, Maryland residents, in the rate center's own unit of rate. |
-| `kaiser_volume_nonmd_resident` | float64 | 0% | `` | Kaiser Permanente (FY2026 onward only) volume, out-of-state residents, in the rate center's own unit of rate. |
-| `kaiser_revenue_md_resident` | float64 | 0% | `` | Kaiser Permanente (FY2026 onward only) revenue, Maryland residents, in nominal dollars. |
-| `kaiser_revenue_nonmd_resident` | float64 | 0% | `` | Kaiser Permanente (FY2026 onward only) revenue, out-of-state residents, in nominal dollars. |
