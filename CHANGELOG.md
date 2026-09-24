@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.2 — 2026-09-24
+
+Documentation release. The data are byte-for-byte identical to 0.1.1; nothing was
+recomputed.
+
+- Adds `.zenodo.json`, so the archived record carries the right metadata: dataset
+  rather than software, ORCID, CC BY 4.0, keywords, and a link to the tracker.
+- This is the first release archived at Zenodo, and the first to carry a DOI.
+
 ## 0.1.1 — 2026-09-18
 
 First release built on a complete FY2026. Adds a fiscal year of revenue and volume,
@@ -41,7 +50,8 @@ faults. Published figures change.
 
 ### Earlier work in this version
 
-Reproducibility fixes. FY2026 is now a complete year, from HSCRC's final FY2026 Revenue and Volume file: statewide regulated revenue for FY2026 is $24.7 billion over twelve months, where v0.1.0 carried $18.4 billion over nine. Every other change below is a reproducibility fix and changes no published figure, with the one hash exception noted.
+Reproducibility fixes. **No published figure changes**, with one exception noted
+below. Everything here was found by rebuilding v0.1.0 from source and comparing.
 
 ### The build is now a pure function of the data
 
