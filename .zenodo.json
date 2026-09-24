@@ -1,0 +1,40 @@
+{
+  "title": "Maryland Hospital Global Budget Revenue Dataset",
+  "upload_type": "dataset",
+  "description": "<p>A tidy, versioned, machine-readable compilation of Maryland Health Services Cost Review Commission (HSCRC) public reports on the state's all-payer hospital global budget system. Fourteen tables, 314,749 rows, covering FY2005 to FY2026.</p><p>Includes hospital revenue and volume by month, rate center, setting, payer and patient residency for FY2017 to FY2026; statewide and hospital-level financial condition for FY2005 to FY2024, extracted from PDF filings; a hospital identity crosswalk linking HSCRC hospital numbers to CMS Certification Numbers and every observed name variant; and a sourced reference table of Maryland hospital rate center codes. Every column is defined in the data dictionary and every source document is named in the source manifest.</p><p>An interactive tracker built on this dataset is at https://farzinahmadi.github.io/maryland-gbr-tracker/</p>",
+  "creators": [
+    {
+      "name": "Ahmadi, Farzin",
+      "affiliation": "Towson University",
+      "orcid": "0000-0002-0606-1707"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "Maryland",
+    "global budget revenue",
+    "all-payer model",
+    "hospital finance",
+    "health policy",
+    "HSCRC",
+    "AHEAD model",
+    "hospital rate setting",
+    "total cost of care"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://farzinahmadi.github.io/maryland-gbr-tracker/",
+      "relation": "isSupplementTo",
+      "resource_type": "other",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://wp.towson.edu/healthdecisions/gbr-tracker/",
+      "relation": "isDocumentedBy",
+      "resource_type": "other",
+      "scheme": "url"
+    }
+  ]
+}
