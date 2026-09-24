@@ -41,8 +41,7 @@ faults. Published figures change.
 
 ### Earlier work in this version
 
-Reproducibility fixes. **No published figure changes**, with one exception noted
-below. Everything here was found by rebuilding v0.1.0 from source and comparing.
+Reproducibility fixes. FY2026 is now a complete year, from HSCRC's final FY2026 Revenue and Volume file: statewide regulated revenue for FY2026 is $24.7 billion over twelve months, where v0.1.0 carried $18.4 billion over nine. Every other change below is a reproducibility fix and changes no published figure, with the one hash exception noted.
 
 ### The build is now a pure function of the data
 
