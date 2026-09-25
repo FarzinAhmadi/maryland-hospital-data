@@ -9,6 +9,7 @@ authors:
     email: fahmadi@towson.edu
 version: 0.1.2
 date-released: 2026-09-24
+doi: 10.5281/zenodo.22947752
 license: CC-BY-4.0
 abstract: >-
   A tidy, versioned, machine-readable compilation of Maryland Health Services

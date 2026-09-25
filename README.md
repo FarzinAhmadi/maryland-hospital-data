@@ -1,5 +1,7 @@
 # Maryland Hospital Global Budget Revenue
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22947752.svg)](https://doi.org/10.5281/zenodo.22947752)
+
 A tidy, versioned, machine readable compilation of the Maryland Health Services
 Cost Review Commission's public reports on the state's all payer hospital global
 budget system. Fourteen tables, 314,749 rows, covering FY2005 to FY2026.
@@ -156,11 +158,14 @@ reports is expected in addition to citing this compilation.
 ## Citation
 
 > Ahmadi, F. (2026). *Maryland Hospital Global Budget Revenue: a compiled dataset
-> from Health Services Cost Review Commission filings* (Version 0.1.1) [Data set].
+> from Health Services Cost Review Commission filings* [Data set]. Zenodo.
+> https://doi.org/10.5281/zenodo.22947752
 
-Machine readable metadata is in `CITATION.cff`. A Zenodo DOI will be minted at
-0.1.1 and added here. The restatement merge that blocked it is now deterministic
-(see `MAINTENANCE.md`).
+That DOI always resolves to the newest version. To cite the exact version you
+used, take the version DOI from its Zenodo record; v0.1.2 is
+https://doi.org/10.5281/zenodo.22947753
+
+Machine readable metadata is in `CITATION.cff`.
 
 ## Contact
 
