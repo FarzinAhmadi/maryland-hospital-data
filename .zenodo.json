@@ -1,7 +1,7 @@
 {
   "title": "Maryland Hospital Global Budget Revenue Dataset",
   "upload_type": "dataset",
-  "description": "<p>A tidy, versioned, machine-readable compilation of Maryland Health Services Cost Review Commission (HSCRC) public reports on the state's all-payer hospital global budget system. Fourteen tables, 314,749 rows, covering FY2005 to FY2026.</p><p>Includes hospital revenue and volume by month, rate center, setting, payer and patient residency for FY2017 to FY2026; statewide and hospital-level financial condition for FY2005 to FY2024, extracted from PDF filings; a hospital identity crosswalk linking HSCRC hospital numbers to CMS Certification Numbers and every observed name variant; and a sourced reference table of Maryland hospital rate center codes. Every column is defined in the data dictionary and every source document is named in the source manifest.</p><p>An interactive tracker built on this dataset is at https://farzinahmadi.github.io/maryland-gbr-tracker/</p>",
+  "description": "<p>A versioned, machine-readable compilation of Maryland Health Services Cost Review Commission (HSCRC) public reports on the state's all-payer hospital global budget system. Fourteen tables, 314,131 rows, covering FY2005 to FY2026.</p><p>Includes hospital revenue and volume by month, rate center, setting, payer and patient residence for FY2017 to FY2026; approved global budget targets (rate years 2019 to 2026) and quality program revenue adjustments (rate years 2016 to 2027); statewide and hospital-level financial condition for FY2005 to FY2025, extracted from HSCRC's annual PDF reports; a hospital crosswalk linking HSCRC hospital numbers to CMS Certification Numbers and every observed name; and a sourced reference table of rate center codes. Every column is defined in the data dictionary, every source document is named in the source manifest, and every decision linking a printed report name to a hospital is recorded with its evidence.</p><p>An interactive tracker built on this dataset is at https://farzinahmadi.github.io/maryland-gbr-tracker/</p>",
   "creators": [
     {
       "name": "Ahmadi, Farzin",
@@ -35,6 +35,13 @@
       "relation": "isDocumentedBy",
       "resource_type": "other",
       "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.24096618",
+      "relation": "isCompiledBy",
+      "resource_type": "software",
+      "scheme": "doi"
     }
-  ]
+  ],
+  "version": "0.1.3"
 }
