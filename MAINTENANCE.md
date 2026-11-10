@@ -37,7 +37,8 @@ the correct amount of friction.
 |---|---|---|
 | `make check` | The shipped dashboard no longer matches what the pipeline produces | `build` workflow, every PR |
 | `make test` | Aggregates that don't reconcile, orphaned `hosp_num`, shares that aren't fractions, derived margins that disagree with HSCRC's printed values | `build` workflow |
-| `make repro` | The build reading anything outside `data/processed/` -- the clock, the environment, an unpinned dependency | `build` workflow, every PR |
+| `make repro` | The dashboard build reading anything outside `data/processed/` -- the clock, the environment, an unpinned dependency | `build` workflow, every PR |
+| `make repro-data` | The dataset build giving different tables on two runs from the same `data/raw/` | before every release |
 | `make fresh` | Data more than one complete fiscal year behind, or a build older than ~2 quarters | `build` workflow (non-blocking) + local |
 | `make monitor` | New HSCRC files | quarterly cron |
 
@@ -85,15 +86,14 @@ cd ~/gbrbuild && rm -f data/processed/* && python3 src/build_all.py
 cp ~/gbrbuild/data/processed/* /path/to/maryland-hospital-data/data/processed/
 ```
 
-## Tables not built by `build_all.py`
+## Every table is built by `build_all.py`
 
-Three published tables come from `tools/` in the research directory and are copied in:
-
-| table | source |
-|---|---|
-| `quality_adjustments.csv` | `processed_data/hscrc_annual_update/quality_adjustments_by_hospital_rateyear.csv` |
-| `approved_gbr_targets.csv` | `processed_data/hscrc_rate_orders/approved_gbr_targets_by_hospital_rateyear.csv` |
-| `disclosure_hospital_annual.csv` | `processed_data/hscrc_disclosure_reports/disclosure_hospital_annual_linked.csv` |
+Since v0.1.3 the approved targets, quality adjustments and disclosure tables are
+built by the pipeline from files in `data/raw/`, listed in `src/mdhosp/config.py`
+(`RATE_YEAR_INPUT_FILES`, `QUALITY_FILES`, and the FY2009-FY2018 entries of
+`FINANCIAL_PDFS`). The scripts in the research folder's `tools/` that built them
+for v0.1.2 are superseded. The disclosure parser caches pdfplumber's page text in
+`build/disclosure_text/`, keyed on each PDF's hash; delete the folder to re-extract.
 
 ## The restatement rule
 
@@ -106,14 +106,22 @@ within a single report and exist to make the ordering total. `aggfunc="last"` sk
 nulls, which is how FY2008 — whose own report is a scanned image — is recovered from
 the FY2009 report. Do not reorder these keys without re-reading that test.
 
+Two rules sit beside it. **Within one report, the entity's first block wins**, whole:
+a report that prints the same entity-year twice is either a later table that the
+parser has run into or a second period in the same fiscal year, and taking fields
+from both can break the accounting identities (v0.1.2 published the larger value
+field by field, which did). **Across printed names, one row per `hosp_num` and
+fiscal year**: when a hospital was renamed between reports, the most recent
+report's row wins, whole. Both are tested.
+
 ## Rate year comes from the document, not the folder
 
-`tools/build_quality_adjustments.py` reads the rate year from the `ry####__` filename
-prefix, which is the folder the workbook was filed in. HSCRC does re-file a prior
-year's workbook in the current year's package. Where the document's own name states a
-rate year, that wins, and the override is printed. Note that `\b` does not work in
-that regex: `_` is a word character and the failing filename is
-`final_ry_2026_qbr_revenue_adjustments`.
+HSCRC files each quality workbook in a July 1 package, and does re-file a prior
+year's workbook in the current year's package: the July 1 2026 package carries
+the final rate year 2026 QBR adjustments and no rate year 2027 QBR file. The rate
+year recorded for each workbook in `QUALITY_FILES` is the one the document names,
+not the package it sits in. v0.1.1 trusted the package and published forty rate
+year 2026 rows as 2027.
 
 ## The recorded source-check date
 
