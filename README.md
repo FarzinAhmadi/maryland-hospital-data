@@ -4,7 +4,7 @@
 
 A tidy, versioned, machine readable compilation of the Maryland Health Services
 Cost Review Commission's public reports on the state's all payer hospital global
-budget system. Fourteen tables, 314,131 rows, covering FY2005 to FY2026.
+budget system. Fourteen tables, 314,087 rows, covering FY2005 to FY2026.
 
 Maryland is the only state where every payer pays the same regulated rate for the
 same hospital service, and where each hospital's total annual revenue is approved
@@ -53,7 +53,7 @@ directly from the compressed file.
 | file | contents | rows | columns |
 |---|---|---:|---:|
 | `approved_gbr_targets.csv` | Approved mid year and year end targets, by rate year | 461 | 9 |
-| `quality_adjustments.csv` | MHAC, PAU, RRIP and QBR adjustments, by hospital and rate year | 1,805 | 11 |
+| `quality_adjustments.csv` | MHAC, PAU, RRIP and QBR adjustments, by hospital and rate year | 1,761 | 11 |
 
 **Hospital finances.** Margins and the statements behind them, from the published reports.
 
@@ -144,9 +144,11 @@ These are open and are recorded here rather than quietly fixed:
 2. **Payer volume exceeds total volume in some rows.** Medicare volume exceeds
    total volume in 118 to 184 rows a year (100 to 155 when only Maryland residents
    are compared, the figure `BUILD_REPORT.md` prints); the broader
-   `flag_payer_exceeds_total` column, which covers any payer, marks 233 to 585 rows
-   a year. These are as
-   published by HSCRC and are retained with a flag rather than corrected.
+   `flag_payer_exceeds_total` column, which checks Medicare and Medicaid overall
+   and by residence, marks 233 to 390 rows a year from FY2017 to FY2025 and 976 in
+   FY2026, where HSCRC's new Medicaid residence columns often exceed the all-payer
+   figure for the same residence group. These are as published by HSCRC and are
+   retained with a flag rather than corrected.
 3. **Four of 23 financial PDFs did not parse and one is a scanned image.**
    `financial_extraction_log.csv` records the outcome for every report.
 4. **One hospital-year printed for two periods.** UPMC Western Maryland changed
@@ -163,7 +165,7 @@ These are open and are recorded here rather than quietly fixed:
 HSCRC is the system of record. Every figure here is derived from files HSCRC and
 CMS publish; nothing is modeled, imputed or estimated. `BUILD_REPORT.md` carries
 the validation output of the pipeline run behind every table. The code that
-builds the tables is archived separately at Zenodo: https://doi.org/10.5281/zenodo.24096618.
+builds the tables is archived separately at Zenodo: https://doi.org/10.5281/zenodo.24259726.
 
 Raw HSCRC source files are not committed. They are large and HSCRC publishes
 them; `reference/source_manifest.md` names each one and links to the page it
@@ -182,8 +184,8 @@ reports is expected in addition to citing this compilation.
 > https://doi.org/10.5281/zenodo.22947752
 
 That DOI always resolves to the newest version. To cite the exact version you
-used, take the version DOI from its Zenodo record; v0.1.2 is
-https://doi.org/10.5281/zenodo.22947753.
+used, take the version DOI from its Zenodo record; v0.1.3 is
+https://doi.org/10.5281/zenodo.24097013.
 
 Machine readable metadata is in `CITATION.cff`.
 
