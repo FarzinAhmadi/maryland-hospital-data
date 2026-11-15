@@ -116,8 +116,8 @@ From HSCRC's **Annual Update to Unit Rates and Global Budget Revenue** packages,
 | PAU | 2026 | `RY2026_PAU_Savings_Scaling_Final (New Methodology)  (1).xlsx` | Hospital PAU Savings (NEW) $0 |
 | PAU | 2027 | `RY2027_PAU_Savings_Scaling_(New Methodology)_Final .xlsx` | Hospital PAU Savings (NEW) $0 |
 | QBR | 2016 | `QBR-RY2016-Revenue-Adjustments-09042015-UPDATED.xlsx` | RY2016 Revenue Adjustments |
-| QBR | 2017 | `FINAL-FY-2017-QBR-Scale-Modeling_20161122_SC.xlsx` | 6.QBR Modeling Results |
-| QBR | 2018 | `QBR_51617.xlsx` | 6.QBR Modeling Results |
+| QBR | 2017 | `FINAL-FY-2017-QBR-Scale-Modeling_20161122_SC.xlsx` | 6.QBR Modeling Results (columns "2.Proposed RY 2017 Scale") |
+| QBR | 2018 | `QBR_51617.xlsx` | not used: repeats the rate year 2017 sheet; rate year 2018 results are published only as a PDF |
 | QBR | 2019 | `RY2019FinalQBRScoring.xlsx` | SCALING |
 | QBR | 2020 | `RY2020QBRScaling.xlsx` | QBR Revenue Adjustments |
 | QBR | 2021 | `RY2021QBRScaling.xlsx` | 6.QBR Results |
@@ -130,13 +130,13 @@ From HSCRC's **Annual Update to Unit Rates and Global Budget Revenue** packages,
 | RRIP | 2020 | `RY2020RRIPScaling.xlsx` | RRIP Results |
 | RRIP | 2021 | `RY2021RRIPScaling07092020.xlsx` | RRIP Modeling Results |
 | RRIP | 2022 | `RY2022RRIP.xlsx` | RRIP Modeling Results |
-| RRIP | 2023 | `RRIP & PAI Rev Adj RY23 (1).xlsx` | RRIP & PAI |
-| RRIP | 2024 | `RY24 RRIP and Disparity Gap 072823.xlsx` | PAI revenue adjustments |
+| RRIP | 2023 | `RRIP & PAI Rev Adj RY23 (1).xlsx` | RRIP & PAI (RRIP columns, not PAI) |
+| RRIP | 2024 | `RY24 RRIP and Disparity Gap 072823.xlsx` | RRIP & PAI (RRIP columns, not PAI) |
 | RRIP | 2025 | `RY25 Final RRIP + Disparity Gap Revenue Adjustments (xlsx.xlsx` | RRIP Revenue Adjustments |
 | RRIP | 2026 | `Final RY26 Blended Base Period RRIP + Disparity Gap Revenue Adjustments  (3).xlsx` | RRIP Revenue Adjustments |
 | RRIP | 2027 | `RY27 RRIP FINAL Revenue Adjustments (2) (1).xlsx` | RRIP Revenue Adjustments |
 
-No MHAC workbook is used for rate years 2017 and 2023, no QBR workbook for 2023 and 2027, and no PAU or RRIP workbook before 2018.
+No MHAC workbook is used for rate years 2017 and 2023, no QBR workbook for 2018, 2023 and 2027, and no PAU or RRIP workbook before 2018.
 
 ## Hospital attributes
 

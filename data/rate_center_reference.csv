@@ -62,7 +62,7 @@ PRE,Premature Nursery,A15,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,
 PSD,Pediatric Step Down,A36,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,201730234.43,1.0,True
 PSG,Psychiatric - Geriatric,A21,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,97563545.0,1.0,True
 PSI,Psychiatric Intensive Care,,Daily service,Patient days,S500,2017.0,2019.0,35421730.0,1.0,True
-PSP,,,,,,2017.0,2021.0,6452.84,1.0,True
+PSP,UNCONFIRMED,,,,not found in any HSCRC source document,2017.0,2021.0,6452.84,1.0,True
 PST,Psychological Testing,C38,Ancillary,Hours,CCD;SUB;S500,2017.0,2026.0,76174074.88,0.0333,True
 PSY,Psychiatric Acute,A3,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,3191322467.99,1.0,True
 PTH,Physical Therapy,C16,Ancillary,1974 California RVU,CCD;SUB;S500,2017.0,2026.0,2865034055.98,0.6603,True
@@ -77,7 +77,7 @@ RES,Respiratory Therapy,C13,Ancillary,Maryland RVUs,CCD;SUB;S500,2017.0,2026.0,3
 RHB,Rehabilitation,A16,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,1764166558.84,1.0,True
 SDS,Same Day Surgery,B6,Ambulatory,Patients,CCD;SUB;S500,2017.0,2026.0,2835913242.22,0.0037,True
 STH,Speech Language Pathology,C18,Ancillary,Maryland RVUs,CCD;SUB;S500,2017.0,2026.0,760683635.34,0.7465,True
-TMS,,,,,,2021.0,2026.0,3051248.53,,True
+TMS,UNCONFIRMED,,,,not found in any HSCRC source document,2021.0,2026.0,3051248.53,,True
 TNA,Transurethral Needle Ablation,C46,Ancillary,Maryland RVUs,CCD;SUB;S500,2017.0,2022.0,379105.95,0.0609,True
 TRM,Shock Trauma,A12,Daily service,Patient days,CCD;SUB;S500,2017.0,2026.0,964472000.26,1.0,True
 TRU,Shock Trauma Resuscitation,,Ambulatory,RVUs,SUB,2017.0,2026.0,126690543.21,0.531,True

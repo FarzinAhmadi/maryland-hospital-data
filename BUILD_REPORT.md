@@ -1,10 +1,10 @@
-> This report is the output of the pipeline run of 2026-11-03. Tables added to the
+> This report is the output of the pipeline run of 2026-11-12. Tables added to the
 > release after that run are not described here. `MANIFEST.json` is written from
 > this release's own files and lists everything that ships in it.
 
 # Build report
 
-Version **0.1.3** — built 2026-11-03
+Version **0.1.4** — built 2026-11-12
 
 ## Tables
 
@@ -22,7 +22,7 @@ Version **0.1.3** — built 2026-11-03
 | `REVIEW_unresolved_hospital_names` | 8 | 7 | 0.00 MB | 0.00 MB |
 | `disclosure_hospital_annual` | 589 | 59 | 0.24 MB | 0.21 MB |
 | `approved_gbr_targets` | 461 | 9 | 0.06 MB | 0.00 MB |
-| `quality_adjustments` | 1,805 | 11 | 0.30 MB | 0.00 MB |
+| `quality_adjustments` | 1,761 | 11 | 0.30 MB | 0.00 MB |
 | `rate_center_reference` | 82 | 11 | 0.01 MB | 0.00 MB |
 
 ## Validation notes

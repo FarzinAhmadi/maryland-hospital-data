@@ -1,5 +1,51 @@
 # Changelog
 
+## 0.1.4 (2026-11-12)
+
+Corrections to the quality program adjustments, a wider payer consistency flag, and
+two rate center codes added to the reference. Only `quality_adjustments`,
+`revenue_volume_monthly` (one flag column) and `rate_center_reference` change; the
+other eleven tables are byte-for-byte identical to 0.1.3. 14 tables, 314,087 rows.
+
+### Corrections
+
+- **RRIP, rate years 2023 and 2024.** These workbooks print the core RRIP adjustment
+  and the Patient Adversity Index (disparity gap) reward side by side, and 0.1.3
+  read the reward. RRIP rows now carry the core RRIP percent and dollar adjustment
+  (`RY23 RRIP  % Revenue Adjustment`, `RY24 RRIP  % Revenue Adjustment`).
+- **QBR, rate year 2017.** The modelling sheet prints four scales side by side;
+  0.1.3 read the last, the national-scale option for rate year 2019. Rows now carry
+  the rate year 2017 scale the workbook implements (its January 2017 and July 2017
+  rate order columns sum to it).
+- **QBR, rate year 2018, removed.** The workbook posted with the rate year 2018
+  package (`QBR_51617.xlsx`) repeats the rate year 2017 sheet, so 0.1.3 published
+  rate year 2017 values as rate year 2018 (44 rows). HSCRC publishes rate year 2018
+  QBR results only in a PDF, which this version does not read.
+- **`flag_payer_exceeds_total`** now also checks Medicaid within each residence
+  group, as Medicare already was. In HSCRC's fiscal year 2026 file the Medicaid
+  residence columns exceed the all-payer figure for the same residence group in
+  many rows (for example, out-of-state Medicaid revenue several times the
+  out-of-state all-payer revenue); the values are published as HSCRC reports them
+  and now flagged. Flagged rows rise from 3,311 to 3,723, of which 976 are in fiscal
+  year 2026.
+- **Rate center reference.** PSP and TMS appear in the panel but are defined in none
+  of the HSCRC documents consulted; they are now listed as UNCONFIRMED, like EK2,
+  EM2, LA2 and OID.
+
+### Documentation
+
+- Data dictionary: corrected the definitions of `ccn`, `center_name`, `source` and
+  `flag_payer_exceeds_total`; the header now says the definitions are written by
+  hand.
+- `LICENSE-DATA` names the right folders and the current citation.
+- Two contract tests added (48): no quality program-year may repeat another in both
+  percent and dollars, and RRIP rows may not carry the disparity reward.
+- Rate year 2022 MHAC, RRIP and QBR percentages repeat rate year 2021's for every
+  hospital. This is HSCRC's: its rate year 2022 RRIP workbook states that rate year 2021
+  results were used because of the COVID-19 public health emergency, and the MHAC
+  and QBR workbooks repeat the percentages in the same way. The dollar
+  amounts differ because the revenue base does.
+
 ## 0.1.3 (2026-11-10)
 
 Corrections to the hospital financial tables and the rate-setting keys, and every

@@ -1,6 +1,6 @@
 # Data dictionary
 
-Generated from the built tables. Types, null rates and ranges are read off the actual output, so this file cannot drift from the data.
+Generated from the built tables. Types, null rates and ranges are read off the actual output; the definitions are written by hand.
 
 
 ## `REVIEW_conflicting_report_rows`
@@ -322,7 +322,7 @@ One row per facility. The join key for everything else. Always join on `hosp_num
 | column | type | non-null | example | description |
 |---|---|---:|---|---|
 | `hosp_num` | int64 | 100% | `1` | HSCRC hospital identifier. Stable across years. **The join key.** |
-| `ccn` | int64 | 100% | `210001` | CMS Certification Number. Reported by HSCRC as MCID where available, otherwise derived as 210000 + hosp_num. |
+| `ccn` | int64 | 100% | `210001` | CMS Certification Number. In the revenue tables, as reported by HSCRC (MCID); fiscal year 2026, whose file omits MCID, carries each hospital's value from its most recent earlier year, and it is blank for hospitals 90 and 91, for which HSCRC reports none. In hospital_crosswalk, reported where available, otherwise derived as 210000 + hosp_num (see ccn_source). |
 | `ccn_source` | object | 100% | `reported (MCID)` | `reported (MCID)` or `derived`. |
 | `hscrc_name` | object | 100% | `Meritus` | Hospital name as used in the most recent fiscal year. |
 | `short_name` | object | 100% | `Meritus` | Name with the HSCRC system prefix removed. |
@@ -350,13 +350,13 @@ One row per hospital per rate year per program. The four quality programs that m
 | `program` | object | 100% | `MHAC` | Quality program: `MHAC`, `PAU`, `RRIP` or `QBR`. |
 | `hospid` | int64 | 100% | `1` | Hospital identifier as printed in the rate-setting file: the CMS Certification Number less 210000, or for some rate years the HSCRC hospital number. Use `hosp_num` to join. |
 | `hosp_num` | int64 | 100% | `1` | HSCRC hospital identifier. Stable across years. **The join key.** |
-| `hospital_name` | object | 95% | `Meritus Hospital` | Hospital name as printed in the source file. |
+| `hospital_name` | object | 98% | `Meritus Hospital` | Hospital name as printed in the source file. |
 | `pct_adjustment` | float64 | 99.4% | `9.737242354468378e-05` | Adjustment to approved revenue, as a proportion. Negative is a reduction. |
-| `dollar_adjustment` | float64 | 92% | `-476649.1196559378` | Adjustment in nominal dollars, where the source file reports one. |
+| `dollar_adjustment` | float64 | 92% | `-127106.43190825022` | Adjustment in nominal dollars, where the source file reports one. |
 | `source_file` | object | 100% | `FY-2015-Scaling-for-Improv` | Originating HSCRC file name, as listed in reference/source_manifest.md. |
 | `source_sheet` | object | 100% | `FY15 Rev RY2015 Scaling` | Worksheet of `source_file` the row was read from. |
 | `pct_column` | object | 100% | `REVENUE NEUTRAL ADJUSTED P` | Label of the source-file column the percentage was read from. Labels vary by rate year, so the original is retained. |
-| `dollar_column` | object | 92% | `$ Revenue Impact` | Label of the source-file column the dollar amount was read from. |
+| `dollar_column` | object | 92% | `2.Proposed RY 2017 Scale: ` | Label of the source-file column the dollar amount was read from. |
 
 ## `rate_center_reference`
 
@@ -365,11 +365,11 @@ Official HSCRC rate center codes with names and units of rate, sourced to HSCRC 
 | column | type | non-null | example | description |
 |---|---|---:|---|---|
 | `rate_center` | object | 100% | `ADD` | HSCRC rate center code. See `rate_center_reference`. |
-| `center_name` | object | 98% | `Adolescent Neuropsychiatry` | Official rate center name from an HSCRC document. |
+| `center_name` | object | 100% | `Adolescent Neuropsychiatry` | Official rate center name from an HSCRC document, or UNCONFIRMED where none of the documents consulted defines the code. |
 | `schedule` | object | 76% | `A26` | HSCRC schedule line (A daily service, B ambulatory, C ancillary). |
 | `category` | object | 93% | `Daily service` | Daily service, Ambulatory, or Ancillary. |
 | `unit_of_rate` | object | 91% | `Patient days` | The unit the rate is set per. Differs by centre; volumes are not comparable across centres. |
-| `source` | object | 98% | `CCD;SUB` | Which HSCRC document defines the code. `UNCONFIRMED` = present in the data, defined in no document located. |
+| `source` | object | 100% | `CCD;SUB` | Which HSCRC document defines the code (CCD, SUB, S500). For UNCONFIRMED codes, a note on what was found. |
 | `fy_first` | float64 | 99% | `2017.0` | First fiscal year this rate center appears in the panel. |
 | `fy_last` | float64 | 99% | `2026.0` | Last fiscal year it appears. |
 | `total_revenue_all_years` | float64 | 99% | `83353409.0` | Revenue accounted for by this centre across the whole panel. |
@@ -419,7 +419,7 @@ Hospital x month x rate center x setting. The `_IN`/`_OUT` suffix in the HSCRC s
 | column | type | non-null | example | description |
 |---|---|---:|---|---|
 | `hosp_num` | int64 | 100% | `1` | HSCRC hospital identifier. Stable across years. **The join key.** |
-| `ccn` | float64 | 99.8% | `210001.0` | CMS Certification Number. Reported by HSCRC as MCID where available, otherwise derived as 210000 + hosp_num. |
+| `ccn` | float64 | 99.8% | `210001.0` | CMS Certification Number. In the revenue tables, as reported by HSCRC (MCID); fiscal year 2026, whose file omits MCID, carries each hospital's value from its most recent earlier year, and it is blank for hospitals 90 and 91, for which HSCRC reports none. In hospital_crosswalk, reported where available, otherwise derived as 210000 + hosp_num (see ccn_source). |
 | `fiscal_year` | int64 | 100% | `2017` | Maryland fiscal year, ending 30 June. FY2025 = July 2024 - June 2025. |
 | `report_date` | object | 100% | `2016-07-01` | First day of the reported month. |
 | `rate_center` | object | 100% | `ADM` | HSCRC rate center code. See `rate_center_reference`. |
@@ -445,7 +445,7 @@ Hospital x month x rate center x setting. The `_IN`/`_OUT` suffix in the HSCRC s
 | `beds_reported` | int64 | 100% | `0` | CNTR_BED as reported by HSCRC. |
 | `admissions_reported` | int64 | 100% | `0` | CNTR_ADM as reported by HSCRC. |
 | `service_type` | object | 100% | `AN` | HSCRC SER_TYPE flag as reported. |
-| `flag_payer_exceeds_total` | bool | 100% | `False` | True where Medicare volume or revenue exceeds the all-payer total for the same residency group, or Medicaid exceeds the all-payer total, by more than 1. About 1% of rows; most of their revenue is in CDS and MSS, which are cost-denominated. Rows are kept, not dropped. Filter these out for analyses needing strictly additive payer shares. |
+| `flag_payer_exceeds_total` | bool | 100% | `False` | True where Medicare or Medicaid volume or revenue exceeds the all-payer total, overall or for the same residency group, by more than 1. Most flagged revenue before FY2026 is in CDS and MSS, which are cost-denominated; in FY2026 most flags come from HSCRC's Medicaid residence columns, which in many rows exceed the all-payer figure for the same residence group. Rows are kept, not dropped. Filter these out for analyses needing strictly additive payer shares. |
 | `flag_negative_value` | bool | 100% | `False` | True where volume or revenue is negative, which signals a retrospective adjustment posted to a later month. |
 | `source_file` | object | 100% | `FY17-Final-Experience-Data` | Originating HSCRC file name, as listed in reference/source_manifest.md. |
 | `fiscal_year_complete` | bool | 100% | `True` | False where the source file does not yet cover all 12 months. |

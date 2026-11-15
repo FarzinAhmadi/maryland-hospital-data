@@ -1,8 +1,8 @@
 {
- "version": "0.1.3",
- "release_date": "2026-11-10",
+ "version": "0.1.4",
+ "release_date": "2026-11-12",
  "n_tables": 14,
- "total_rows": 314131,
+ "total_rows": 314087,
  "tables": [
   {
    "table": "statewide_annual",
@@ -33,9 +33,9 @@
    "file": "revenue_volume_monthly.csv.gz",
    "rows": 308195,
    "columns": 37,
-   "bytes": 17270734,
-   "sha256": "36a9a70965cbfb5b2b4576f307c6aedd11be7ddb8c347dd034724c75fe46890f",
-   "sha256_uncompressed": "400dd54136fd2e79341534699b22994574a2f6c2f9b845aed201039be8683f58"
+   "bytes": 17271044,
+   "sha256": "9c82899afdfc246637fabc1b480459d7916ebf452983c78be16d602c01d91c48",
+   "sha256_uncompressed": "16b0877f4fd2b04541e35248a3d1dd897530256b10408820793019a74941ad21"
   },
   {
    "table": "approved_gbr_targets",
@@ -48,10 +48,10 @@
   {
    "table": "quality_adjustments",
    "file": "quality_adjustments.csv",
-   "rows": 1805,
+   "rows": 1761,
    "columns": 11,
-   "bytes": 295967,
-   "sha256": "035d2993a8a9ab046df360b5a7d1deb4e7fcde7a3eb5c9cf3457f7d9845c5c35"
+   "bytes": 296398,
+   "sha256": "1a3f5829089360ab443ebf2cc73d22782082e17f89c072d38f396097790f0c0a"
   },
   {
    "table": "financial_hospital_annual",
@@ -90,8 +90,8 @@
    "file": "rate_center_reference.csv",
    "rows": 82,
    "columns": 11,
-   "bytes": 8595,
-   "sha256": "1451c9a830030d1f1c052dbc9bff85e5371f2bbef71425eb5961fb95769cd04f"
+   "bytes": 8693,
+   "sha256": "aaf632269bd49e458e9b3ee3aebfed4d541e5b712e085337ae25e246d9dfae00"
   },
   {
    "table": "financial_extraction_log",
